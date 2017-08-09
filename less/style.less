@@ -1,0 +1,312 @@
+@border-marker: 1px solid red;
+@color-yellow: #ffff33;
+@color-white: white;
+@background-form-consultation: white;
+@gray-color: #333333;
+@background-color-blocksteps: #f5f5f5;
+
+html {
+	font-size: 10px;
+	box-sizing: border-box;
+	// padding: 0;
+	// margin: 0;
+}
+
+// <!-- HEADER START -->
+
+.container-fluid {
+	background: url("../img/hdrbkg.png") no-repeat;
+	
+	.header {
+		// border: 1px solid green;
+		height: auto;	
+		color: @color-white;
+		font-size: 2rem;
+
+			&-top {
+				// border: @border-marker;
+				// border: 1px solid yellow;
+				// height: 100px;
+				padding: 0;
+					&-logo {
+						// border: @border-marker;
+						display: inline-block;						
+						text-align: center;
+						height: 100px;
+						// width: 
+							img {
+								display: block;
+								float: left;
+								position: relative;
+								top: 20%;								
+								margin-left: -15px;
+								// border: @border-marker;
+							}
+							&-text {
+								// border: @border-marker;
+								display: inline-block;
+								width: 65%;
+								text-align: left;
+									h1 {
+										display: inline-block;
+										font-size: 2rem;
+										margin-bottom: 0;
+									}
+									h2 {
+										display: inline-block;
+										font-size: 1rem;
+										margin-top: 0;
+										margin-bottom: 0;
+									}
+							}
+							
+							
+					}
+					&-phone {
+						// float: right;
+						display: inline-block;
+						// border: @border-marker;
+						height: 100px;
+							button {
+								position: relative;
+								top: 25%;
+								display: inline-block;
+								width: 45%;
+								height: 45%;
+								font-size: 12px;
+								background: none;
+								border-radius: 5px;
+								border: 1px solid white;
+								margin-left: -10px;
+							}
+							span {
+								float: right;
+								font-size: 2.5rem;
+								font-weight: bolder;
+								position: relative;
+								top: 25%;
+
+							}
+
+					}
+					&-describe {
+						// border: @border-marker;
+						// height: 100px;
+						text-align: center;
+							span {
+								color: @color-yellow;
+								font-size: 3rem;
+							}
+					}
+					&-consultation {
+						// border: 1px solid blue;
+						height: auto;
+						padding: 0;
+							&-left {
+								// border: 1px solid green;
+								height: 300px;
+									span:first-child {
+										display: inline-block;
+										// border: @border-marker;										
+										margin-top: 17%;
+									}
+							}
+							&-right {
+								// border: 1px solid cyan;
+								height: 300px;
+									&-form {
+										background-color: white;
+										border-radius: 5px;
+										height: 100%;
+										text-align: center;
+										box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+											span {
+												color: @gray-color;
+											}
+											//поля формы заполнения заявки --> начало
+											.input-group {
+												// border: @border-marker;
+												margin-top: 20px;
+												height: 45px;
+													.input-group-addon {
+														display: inline-block;
+														// border: @border-marker;
+														height: 45px;
+														width: 45px;
+														background-color: @gray-color;
+														color: white;
+														text-align: center;														
+															i {
+																// border: @border-marker;			
+																// padding: 20px;
+															}
+													}
+													.form-control {
+														// border: @border-marker;
+														padding: 10px;
+														color: @gray-color;
+													}
+											}
+											//поля формы заполнения заявки --> конец
+									}
+
+							}
+					}					
+					&-money {
+						// border: @border-marker;
+						height: 100px;
+							img {
+								display: block;
+								margin: 0 auto;
+								position: relative;
+								top: -50px;
+							}
+					}
+			}
+			
+		}
+
+}
+//<!-- HEADER STOP -->
+
+// *******************************
+
+// <!-- SERVICES  START -->
+.bkg {
+	background: none;
+	.services {		
+		border: @border-marker;
+		height: auto;
+			&-block1 {
+				border: @border-marker;
+				height: 200px;
+			}
+			&-block2 {
+				border: @border-marker;
+				height: 200px;	
+			}
+			&-block3 {
+				border: @border-marker;
+				height: 200px;	
+			}
+			&-block4 {
+				border: @border-marker;
+				height: 200px;	
+			}
+			&-block5 {
+				border: @border-marker;
+				height: 200px;	
+			}
+			&-block6 {
+				border: @border-marker;
+				height: 200px;	
+			}
+			&-block7 {
+				border: @border-marker;
+				height: 200px;	
+			}
+			&-block8 {
+				border: @border-marker;
+				height: 200px;	
+			}
+			&-block9 {
+				border: 1px solid green;
+				height: 200px;	
+			}
+			&-block10 {
+				border: 1px solid blue;
+				height: 200px;	
+			}
+	}	
+}
+
+
+// <!-- SERVICES  STOP -->
+
+
+
+//  MEDIA QUERIES
+
+@media(max-width: 1200px) {
+	.header {
+		width: 950px;
+			&-top {
+				width: auto;
+				height: auto;
+					&-logo {
+						width: 300px;
+					}
+					&-phone {
+						float: right;
+						width: 400px;
+					}
+			}
+	}
+	.services {
+		&-block10 {
+
+		}
+	}
+	
+	
+}
+
+@media(max-width: 991px) {
+	.header {
+		width: 750px;
+			&-top {
+				width: auto;
+				height: auto;
+					&-logo {
+						width: 300px;
+					}
+					&-phone {
+						width: 400px;
+					}
+					&-consultation {
+						text-align: center;
+					}
+					&-money {
+						position: relative;
+						top: 70px;
+					}
+			}
+	}
+}
+
+@media(max-width: 790px) {
+	.header {
+		width: 700px;
+			&-top {
+				width: auto;
+				height: auto;
+					&-logo {
+						display: block;
+						margin: 0 28%;
+						float: none;
+						width: 300px;
+					}
+					&-phone {
+						display: block;
+						margin: 0 20%;
+						float: none;
+						height: 100%;						
+						width: 400px;
+					}
+					&-describe {
+						// margin-top: 220px;
+						height: auto;
+					}
+					&-consultation {
+						text-align: center;
+					}
+					&-money {
+						position: relative;
+						top: 70px;
+					}
+			}
+	}
+}
+
+
+

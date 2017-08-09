@@ -1,0 +1,241 @@
+html {
+  font-size: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container-fluid {
+  background: url("../img/hdrbkg.png") no-repeat;
+}
+.container-fluid .header {
+  height: auto;
+  color: #ffffff;
+  font-size: 2rem;
+}
+.container-fluid .header-top {
+  padding: 0;
+}
+.container-fluid .header-top-logo {
+  display: inline-block;
+  text-align: center;
+  height: 100px;
+}
+.container-fluid .header-top-logo img {
+  display: block;
+  float: left;
+  position: relative;
+  top: 20%;
+  margin-left: -15px;
+}
+.container-fluid .header-top-logo-text {
+  display: inline-block;
+  width: 65%;
+  text-align: left;
+}
+.container-fluid .header-top-logo-text h1 {
+  display: inline-block;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+.container-fluid .header-top-logo-text h2 {
+  display: inline-block;
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.container-fluid .header-top-phone {
+  display: inline-block;
+  height: 100px;
+}
+.container-fluid .header-top-phone button {
+  position: relative;
+  top: 25%;
+  display: inline-block;
+  width: 45%;
+  height: 45%;
+  font-size: 12px;
+  background: none;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-left: -10px;
+}
+.container-fluid .header-top-phone span {
+  float: right;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  position: relative;
+  top: 25%;
+}
+.container-fluid .header-top-describe {
+  text-align: center;
+}
+.container-fluid .header-top-describe span {
+  color: #ffff33;
+  font-size: 3rem;
+}
+.container-fluid .header-top-consultation {
+  height: auto;
+  padding: 0;
+}
+.container-fluid .header-top-consultation-left {
+  height: 300px;
+}
+.container-fluid .header-top-consultation-left span:first-child {
+  display: inline-block;
+  margin-top: 17%;
+}
+.container-fluid .header-top-consultation-right {
+  height: 300px;
+}
+.container-fluid .header-top-consultation-right-form {
+  background-color: white;
+  border-radius: 5px;
+  height: 100%;
+  text-align: center;
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+.container-fluid .header-top-consultation-right-form span {
+  color: #333333;
+}
+.container-fluid .header-top-consultation-right-form .input-group {
+  margin-top: 20px;
+  height: 45px;
+}
+.container-fluid .header-top-consultation-right-form .input-group .input-group-addon {
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+}
+.container-fluid .header-top-consultation-right-form .input-group .form-control {
+  padding: 10px;
+  color: #333333;
+}
+.container-fluid .header-top-money {
+  height: 100px;
+}
+.container-fluid .header-top-money img {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: -50px;
+}
+.bkg {
+  background: none;
+}
+.bkg .services {
+  border: 1px solid #ff0000;
+  height: auto;
+}
+.bkg .services-block1 {
+  border: 1px solid #ff0000;
+  height: 200px;
+}
+.bkg .services-block2 {
+  border: 1px solid #ff0000;
+  height: 200px;
+}
+.bkg .services-block3 {
+  border: 1px solid #ff0000;
+  height: 200px;
+}
+.bkg .services-block4 {
+  border: 1px solid #ff0000;
+  height: 200px;
+}
+.bkg .services-block5 {
+  border: 1px solid #ff0000;
+  height: 200px;
+}
+.bkg .services-block6 {
+  border: 1px solid #ff0000;
+  height: 200px;
+}
+.bkg .services-block7 {
+  border: 1px solid #ff0000;
+  height: 200px;
+}
+.bkg .services-block8 {
+  border: 1px solid #ff0000;
+  height: 200px;
+}
+.bkg .services-block9 {
+  border: 1px solid green;
+  height: 200px;
+}
+.bkg .services-block10 {
+  border: 1px solid blue;
+  height: 200px;
+}
+@media (max-width: 1200px) {
+  .header {
+    width: 950px;
+  }
+  .header-top {
+    width: auto;
+    height: auto;
+  }
+  .header-top-logo {
+    width: 300px;
+  }
+  .header-top-phone {
+    float: right;
+    width: 400px;
+  }
+}
+@media (max-width: 991px) {
+  .header {
+    width: 750px;
+  }
+  .header-top {
+    width: auto;
+    height: auto;
+  }
+  .header-top-logo {
+    width: 300px;
+  }
+  .header-top-phone {
+    width: 400px;
+  }
+  .header-top-consultation {
+    text-align: center;
+  }
+  .header-top-money {
+    position: relative;
+    top: 70px;
+  }
+}
+@media (max-width: 790px) {
+  .header {
+    width: 700px;
+  }
+  .header-top {
+    width: auto;
+    height: auto;
+  }
+  .header-top-logo {
+    display: block;
+    margin: 0 28%;
+    float: none;
+    width: 300px;
+  }
+  .header-top-phone {
+    display: block;
+    margin: 0 20%;
+    float: none;
+    height: 100%;
+    width: 400px;
+  }
+  .header-top-describe {
+    height: auto;
+  }
+  .header-top-consultation {
+    text-align: center;
+  }
+  .header-top-money {
+    position: relative;
+    top: 70px;
+  }
+}
