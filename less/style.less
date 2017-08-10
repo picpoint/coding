@@ -8,8 +8,6 @@
 html {
 	font-size: 10px;
 	box-sizing: border-box;
-	// padding: 0;
-	// margin: 0;
 }
 
 // <!-- HEADER START -->
@@ -18,32 +16,24 @@ html {
 	background: url("../img/hdrbkg.png") no-repeat;
 	
 	.header {
-		// border: 1px solid green;
 		height: auto;	
 		color: @color-white;
 		font-size: 2rem;
 
 			&-top {
-				// border: @border-marker;
-				// border: 1px solid yellow;
-				// height: 100px;
 				padding: 0;
 					&-logo {
-						// border: @border-marker;
 						display: inline-block;						
 						text-align: center;
 						height: 100px;
-						// width: 
 							img {
 								display: block;
 								float: left;
 								position: relative;
 								top: 20%;								
 								margin-left: -15px;
-								// border: @border-marker;
 							}
 							&-text {
-								// border: @border-marker;
 								display: inline-block;
 								width: 65%;
 								text-align: left;
@@ -63,9 +53,7 @@ html {
 							
 					}
 					&-phone {
-						// float: right;
 						display: inline-block;
-						// border: @border-marker;
 						height: 100px;
 							button {
 								position: relative;
@@ -90,8 +78,6 @@ html {
 
 					}
 					&-describe {
-						// border: @border-marker;
-						// height: 100px;
 						text-align: center;
 							span {
 								color: @color-yellow;
@@ -99,20 +85,16 @@ html {
 							}
 					}
 					&-consultation {
-						// border: 1px solid blue;
 						height: auto;
 						padding: 0;
 							&-left {
-								// border: 1px solid green;
 								height: 300px;
 									span:first-child {
 										display: inline-block;
-										// border: @border-marker;										
 										margin-top: 17%;
 									}
 							}
 							&-right {
-								// border: 1px solid cyan;
 								height: 300px;
 									&-form {
 										background-color: white;
@@ -125,35 +107,44 @@ html {
 											}
 											//поля формы заполнения заявки --> начало
 											.input-group {
-												// border: @border-marker;
-												margin-top: 20px;
-												height: 45px;
-													.input-group-addon {
+												width: auto;
+												margin: 15px 30px;
+													span {
 														display: inline-block;
-														// border: @border-marker;
-														height: 45px;
-														width: 45px;
-														background-color: @gray-color;
-														color: white;
-														text-align: center;														
 															i {
-																// border: @border-marker;			
-																// padding: 20px;
+																background: @gray-color;
+																font-size: 2rem;
+																padding: 13px;
+																width: 50px;
+																height: 50px;
+																color: white;
+																border-radius: 5px;
+																margin-right: -7px;
 															}
 													}
-													.form-control {
-														// border: @border-marker;
-														padding: 10px;
+													input {
+														height: 50px;
+														border-radius: 5px;
+														border: 1px solid gray;
 														color: @gray-color;
 													}
 											}
 											//поля формы заполнения заявки --> конец
+											button {
+												height: 50px;
+												background-color: yellow;
+												color: @gray-color;
+												font-size: 1.5rem;
+												width: 80%;
+												border: none;
+												border-radius: 5px;
+												box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3)
+											}
 									}
 
 							}
 					}					
 					&-money {
-						// border: @border-marker;
 						height: 100px;
 							img {
 								display: block;
@@ -176,14 +167,11 @@ html {
 	background: none;
 	.services {		
 		margin-top: 50px;
-		// border: @border-marker;
 		height: auto;
 			&-block1 {
-				// border: @border-marker;
 				height: 300px;
 				text-align: center;
 					&-round {
-						// border: @border-marker;
 						margin: 25px auto 0 auto;
 						background-color: yellow;
 						height: 120px;
@@ -195,7 +183,6 @@ html {
 								top: 30%;
 								margin: 0 auto;
 								height: 40px;
-								// width: 50px;
 							}
 					}
 					span {
@@ -205,11 +192,9 @@ html {
 					}
 			}
 			&-block2 {
-				// border: @border-marker;
 				height: 300px;
 				text-align: center;
 					&-round {
-						// border: @border-marker;
 						margin: 25px auto 0 auto;
 						background-color: yellow;
 						height: 120px;
@@ -221,7 +206,6 @@ html {
 								top: 30%;
 								margin: 0 auto;
 								height: 40px;
-								// width: 50px;
 							}
 					}
 					span {
@@ -231,11 +215,9 @@ html {
 					}
 			}
 			&-block3 {
-				// border: @border-marker;
 				height: 300px;
 				text-align: center;
 					&-round {
-						// border: @border-marker;
 						margin: 25px auto 0 auto;
 						background-color: yellow;
 						height: 120px;
@@ -247,7 +229,6 @@ html {
 								top: 30%;
 								margin: 0 auto;
 								height: 40px;
-								// width: 50px;
 							}
 					}
 					span {
@@ -257,11 +238,9 @@ html {
 					}
 			}
 			&-block4 {
-				// border: @border-marker;
 				height: 300px;
 				text-align: center;
 					&-round {
-						// border: @border-marker;
 						margin: 25px auto 0 auto;
 						background-color: yellow;
 						height: 120px;
@@ -273,7 +252,6 @@ html {
 								top: 35%;
 								margin: 0 auto;
 								height: 20px;
-								// width: 50px;
 							}
 					}
 					span {
@@ -283,11 +261,9 @@ html {
 					}
 			}
 			&-block5 {
-				// border: @border-marker;
 				height: 300px;
 				text-align: center;
 					&-round {
-						// border: @border-marker;
 						margin: 25px auto 0 auto;
 						background-color: yellow;
 						height: 120px;
@@ -299,7 +275,6 @@ html {
 								top: 30%;
 								margin: 0 auto;
 								height: 45px;
-								// width: 50px;
 							}
 					}
 					span {
@@ -309,11 +284,9 @@ html {
 					}
 			}
 			&-block6 {
-				// border: @border-marker;
 				height: 300px;
 				text-align: center;
 					&-round {
-						// border: @border-marker;
 						margin: 25px auto 0 auto;
 						background-color: yellow;
 						height: 120px;
@@ -325,7 +298,6 @@ html {
 								top: 30%;
 								margin: 0 auto;
 								height: 35px;
-								// width: 50px;
 							}
 					}
 					span {
@@ -335,11 +307,9 @@ html {
 					}
 			}
 			&-block7 {
-				// border: @border-marker;
 				height: 300px;
 				text-align: center;
 					&-round {
-						// border: @border-marker;
 						margin: 25px auto 0 auto;
 						background-color: yellow;
 						height: 120px;
@@ -351,7 +321,6 @@ html {
 								top: 30%;
 								margin: 0 auto;
 								height: 50px;
-								// width: 50px;
 							}
 					}
 					span {
@@ -361,11 +330,9 @@ html {
 					}
 			}
 			&-block8 {
-				// border: @border-marker;
 				height: 300px;
 				text-align: center;
 					&-round {
-						// border: @border-marker;
 						margin: 25px auto 0 auto;
 						background-color: yellow;
 						height: 120px;
@@ -377,7 +344,6 @@ html {
 								top: 30%;
 								margin: 0 auto;
 								height: 40px;
-								// width: 50px;
 							}
 					}
 					span {
@@ -387,11 +353,9 @@ html {
 					}
 			}
 			&-block9 {
-				// border: @border-marker;
 				height: 300px;
 				text-align: center;
 					&-round {
-						// border: @border-marker;
 						margin: 25px auto 0 auto;
 						background-color: yellow;
 						height: 120px;
@@ -403,7 +367,6 @@ html {
 								top: 35%;
 								margin: 0 auto;
 								height: 30px;
-								// width: 50px;
 							}
 					}
 					span {
@@ -413,11 +376,9 @@ html {
 					}
 			}
 			&-block10 {
-				// border: @border-marker;
 				height: 300px;
 				text-align: center;
 					&-round {
-						// border: @border-marker;
 						margin: 25px auto 0 auto;
 						background-color: yellow;
 						height: 120px;
@@ -429,7 +390,6 @@ html {
 								top: 30%;
 								margin: 0 auto;
 								height: 40px;
-								// width: 50px;
 							}
 					}
 					span {
@@ -461,14 +421,20 @@ html {
 						float: right;
 						width: 400px;
 					}
+					&-consultation {
+						&-right {
+							&-form {
+								.input-group {
+									input {
+										width: 150px;
+									}
+								}
+							}
+						}
+					}
 			}
 	}
-	.services {
-		&-block10 {
-
-		}
-	}
-	
+		
 	
 }
 
@@ -515,7 +481,6 @@ html {
 						width: 400px;
 					}
 					&-describe {
-						// margin-top: 220px;
 						height: auto;
 					}
 					&-consultation {
