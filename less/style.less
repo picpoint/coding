@@ -108,6 +108,7 @@ html {
 											//поля формы заполнения заявки --> начало
 											.input-group {
 												width: auto;
+												// border: @border-marker;
 												margin: 15px 30px;
 													span {
 														display: inline-block;
@@ -124,6 +125,7 @@ html {
 													}
 													input {
 														height: 50px;
+														width: 75%;
 														border-radius: 5px;
 														border: 1px solid gray;
 														color: @gray-color;
@@ -404,6 +406,20 @@ html {
 
 // <!-- SERVICES  STOP -->
 
+//******************************
+
+//<!-- NUMBER  START -->
+.bkg-num {
+	background: #fbfbfb;
+	.number {
+		border: @border-marker;
+		height: 500px;
+	}	
+}
+
+
+//<!-- NUMBER  STOP -->
+
 
 
 //  MEDIA QUERIES
@@ -424,9 +440,11 @@ html {
 					&-consultation {
 						&-right {
 							&-form {
+								height: auto;
 								.input-group {
+									// width: 100px;
 									input {
-										width: 150px;
+										// width: 150px;
 									}
 								}
 							}

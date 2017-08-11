@@ -116,6 +116,7 @@ html {
 }
 .container-fluid .header-top-consultation-right-form .input-group input {
   height: 50px;
+  width: 75%;
   border-radius: 5px;
   border: 1px solid gray;
   color: #333333;
@@ -377,6 +378,13 @@ html {
   margin-top: 30px;
   font-size: 2rem;
 }
+.bkg-num {
+  background: #fbfbfb;
+}
+.bkg-num .number {
+  border: 1px solid #ff0000;
+  height: 500px;
+}
 @media (max-width: 1200px) {
   .header {
     width: 950px;
@@ -392,8 +400,8 @@ html {
     float: right;
     width: 400px;
   }
-  .header-top-consultation-right-form .input-group input {
-    width: 150px;
+  .header-top-consultation-right-form {
+    height: auto;
   }
 }
 @media (max-width: 991px) {
