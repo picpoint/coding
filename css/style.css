@@ -383,7 +383,116 @@ html {
 }
 .bkg-num .number {
   border: 1px solid #ff0000;
-  height: 500px;
+}
+.bkg-num .number-digit {
+  border: 1px solid #ff0000;
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+.bkg-num .number-digit span {
+  width: 20%;
+  border: 1px solid #ff0000;
+  height: 110px;
+  font-size: 10rem;
+  font-weight: bolder;
+  color: #ffff33;
+}
+.bkg-num .number-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #ff0000;
+  background-color: #ffff33;
+  height: 4px;
+  margin: 30px 120px;
+}
+.bkg-num .number-line span {
+  position: relative;
+  top: -5px;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  display: block;
+  width: 13px;
+  height: 13px;
+  background-color: #ffff33;
+}
+.bkg-num .number-describe {
+  border: 1px solid #ff0000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+  text-align: center;
+}
+.bkg-num .number-describe span {
+  width: 20%;
+  padding: 0 30px;
+  font-weight: bold;
+  border: 1px solid #ff0000;
+}
+.bkg-num .number-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px 0 70px 0;
+  height: 100px;
+  border: 1px solid #ff0000;
+  background-color: #333333;
+  border-radius: 5px;
+}
+.bkg-num .number-form .input-group {
+  display: inline-block;
+  width: 30%;
+  margin: 25px 0;
+}
+.bkg-num .number-form .input-group span {
+  display: inline-block;
+}
+.bkg-num .number-form .input-group span i {
+  background: white;
+  font-size: 2rem;
+  padding: 13px;
+  width: 50px;
+  height: 50px;
+  color: #333333;
+  border-radius: 5px;
+  margin-right: -7px;
+}
+.bkg-num .number-form .input-group input {
+  height: 50px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid gray;
+  color: white;
+  background-color: #333333;
+}
+.bkg-num .number-form button {
+  height: 50px;
+  background-color: yellow;
+  color: #333333;
+  font-size: 1.5rem;
+  width: 30%;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
+          box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
 }
 @media (max-width: 1200px) {
   .header {
@@ -424,6 +533,12 @@ html {
   .header-top-money {
     position: relative;
     top: 70px;
+  }
+  .number-form {
+    height: auto;
+  }
+  .number-form .input-group {
+    width: 300px;
   }
 }
 @media (max-width: 790px) {
