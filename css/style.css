@@ -482,14 +482,98 @@ html {
 .maps {
   background: url("../img/map.png") no-repeat center center;
   background-size: cover;
-  height: 500px;
+  height: 400px;
   border: 1px solid #ff0000;
   color: white;
 }
 .maps-blockadress {
+  position: relative;
+  left: 30%;
+  top: 10%;
   width: 300px;
   height: 200px;
   background-color: #333333;
+  text-align: center;
+  border-radius: 5px;
+}
+.maps-blockadress:after {
+  content: '';
+  position: absolute;
+  right: 200px;
+  top: 190px;
+  border: 15px solid transparent;
+  border-top: 80px solid #333333;
+}
+.maps-blockadress span {
+  border: 1px solid #ff0000;
+  display: inline-block;
+  margin-top: 10px;
+}
+.maps-blockadress span:nth-child(1) {
+  margin-top: 30px;
+}
+.maps-blockadress span:nth-child(2) {
+  color: #ffff33;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+.footer {
+  background-color: #333333;
+  border: 1px solid #ff0000;
+  height: 300px;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+.footer span {
+  display: block;
+  margin-top: 30px;
+}
+.footer-form {
+  margin: 50px 0 70px 0;
+  height: 100px;
+  border: 1px solid #ff0000;
+  background-color: #333333;
+  border-radius: 5px;
+}
+.footer-form .input-group {
+  border: 1px solid #ff0000;
+}
+.footer-form .input-group span {
+  display: inline-block;
+}
+.footer-form .input-group span i {
+  background: white;
+  font-size: 2rem;
+  padding: 13px;
+  width: 50px;
+  height: 50px;
+  color: #333333;
+  border-radius: 5px;
+  margin-right: -7px;
+  margin-left: -15px;
+}
+.footer-form .input-group input {
+  height: 50px;
+  width: 89%;
+  border-radius: 5px;
+  border: 1px solid gray;
+  color: white;
+  background-color: #333333;
+}
+.footer-form-btn {
+  margin: 25px auto;
+}
+.footer-form-btn button {
+  height: 50px;
+  background-color: yellow;
+  color: #333333;
+  font-size: 1.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
+          box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
 }
 @media (max-width: 1200px) {
   .header {
