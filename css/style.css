@@ -381,22 +381,18 @@ html {
 .bkg-num {
   background: #fbfbfb;
 }
-.bkg-num .number {
-  border: 1px solid #ff0000;
-}
 .bkg-num .number-digit {
-  border: 1px solid #ff0000;
-  margin-top: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-top: 70px;
   text-align: center;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 .bkg-num .number-digit span {
   width: 20%;
-  border: 1px solid #ff0000;
   height: 110px;
   font-size: 10rem;
   font-weight: bolder;
@@ -409,23 +405,24 @@ html {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border: 1px solid #ff0000;
   background-color: #ffff33;
   height: 4px;
   margin: 30px 120px;
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 .bkg-num .number-line span {
   position: relative;
   top: -5px;
-  border: 1px solid #ff0000;
   border-radius: 10px;
   display: block;
-  width: 13px;
-  height: 13px;
+  width: 15px;
+  height: 15px;
   background-color: #ffff33;
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 .bkg-num .number-describe {
-  border: 1px solid #ff0000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -437,33 +434,17 @@ html {
 }
 .bkg-num .number-describe span {
   width: 20%;
-  padding: 0 30px;
+  padding: 0 10px;
   font-weight: bold;
-  border: 1px solid #ff0000;
 }
 .bkg-num .number-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin: 50px 0 70px 0;
   height: 100px;
-  border: 1px solid #ff0000;
   background-color: #333333;
   border-radius: 5px;
 }
 .bkg-num .number-form .input-group {
-  display: inline-block;
-  width: 30%;
-  margin: 25px 0;
-}
-.bkg-num .number-form .input-group span {
-  display: inline-block;
+  margin: 25px auto;
 }
 .bkg-num .number-form .input-group span i {
   background: white;
@@ -474,25 +455,41 @@ html {
   color: #333333;
   border-radius: 5px;
   margin-right: -7px;
+  margin-left: -15px;
 }
 .bkg-num .number-form .input-group input {
   height: 50px;
-  width: 80%;
+  width: 89%;
   border-radius: 5px;
   border: 1px solid gray;
   color: white;
   background-color: #333333;
 }
-.bkg-num .number-form button {
+.bkg-num .number-form-btn {
+  margin: 25px auto;
+}
+.bkg-num .number-form-btn button {
   height: 50px;
   background-color: yellow;
   color: #333333;
   font-size: 1.5rem;
-  width: 30%;
+  width: 100%;
   border: none;
   border-radius: 5px;
   -webkit-box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
           box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
+}
+.maps {
+  background: url("../img/map.png") no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  border: 1px solid #ff0000;
+  color: white;
+}
+.maps-blockadress {
+  width: 300px;
+  height: 200px;
+  background-color: #333333;
 }
 @media (max-width: 1200px) {
   .header {
@@ -511,6 +508,18 @@ html {
   }
   .header-top-consultation-right-form {
     height: auto;
+  }
+  .bkg-num .number-form {
+    height: auto;
+  }
+  .bkg-num .number-form .input-group {
+    width: 33%;
+  }
+  .bkg-num .number-form .input-group input {
+    width: 88%;
+  }
+  .bkg-num .number-form-btn button {
+    width: 100%;
   }
 }
 @media (max-width: 991px) {
@@ -534,11 +543,18 @@ html {
     position: relative;
     top: 70px;
   }
-  .number-form {
+  .bkg-num .number-form {
     height: auto;
   }
-  .number-form .input-group {
-    width: 300px;
+  .bkg-num .number-form .input-group {
+    display: block;
+    width: 33%;
+  }
+  .bkg-num .number-form .input-group input {
+    width: 157px;
+  }
+  .bkg-num .number-form-btn button {
+    width: 100%;
   }
 }
 @media (max-width: 790px) {
@@ -571,5 +587,32 @@ html {
   .header-top-money {
     position: relative;
     top: 70px;
+  }
+  .bkg-num .number-form {
+    height: auto;
+  }
+  .bkg-num .number-form .input-group {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .bkg-num .number-form .input-group span i {
+    display: block;
+    margin: 10px auto;
+  }
+  .bkg-num .number-form .input-group input {
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+  }
+  .bkg-num .number-form-btn {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+  }
+  .bkg-num .number-form-btn button {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
   }
 }
