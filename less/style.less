@@ -1,14 +1,38 @@
 @background-color: gray;
 @border-marker: 1px solid red;
 
-.blue {
-	width: 300px;
-	height: 300px;
-	background-color: blue;
-}
-
 .main {
 	// background-color: @background-color;
 	border: @border-marker;
-	height: 100px;
+	height: 100vh;
+		&-link {
+			// border: @border-marker;
+			display: block;
+			position: absolute;
+			top: 30px;
+			left: 30px;
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+				span, span:before, span:after {
+					display: block;
+					position: absolute;
+					left: 50%;
+					top: 50%;
+					margin-left: -10px;
+					margin-top: -1px;
+					width: 20px;
+					height: 2px;
+					background-color: black;
+				}
+				span:after {
+					content: '';
+					margin-top: -6px;
+				}
+				span:before {
+					content: '';
+					margin-top: 4px;
+				}
+		}
 }
