@@ -25,12 +25,35 @@
   width: 20px;
   height: 2px;
   background-color: black;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .main-link span:after {
   content: '';
   margin-top: -6px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .main-link span:before {
   content: '';
   margin-top: 4px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.main-link-active span {
+  background-color: transparent;
+}
+.main-link-active span:before {
+  margin-top: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+.main-link-active span:after {
+  margin-top: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
 }
