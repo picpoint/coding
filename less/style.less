@@ -1,6 +1,10 @@
 @background-color: gray;
 @border-marker: 1px solid red;
 
+html {
+	box-sizing: border-box;
+}
+
 .main {
 	// background-color: @background-color;
 	border: @border-marker;
@@ -49,6 +53,46 @@
 					margin-top: 0;
 					 transition: all 0.5s ease-in-out;
 					transform: rotate(-135deg);
+				}
+		}
+		&-menu {
+			background-color: #75c6ff;
+			display: flex;
+			justify-content: center;
+			height: 100%;
+			margin-left: -15px;
+			border: @border-marker;
+			// position: absolute;
+			// left: -100vh;
+				ul {
+					border: @border-marker;
+					// 	width: 100vw;
+					li {
+						// border: @border-marker;
+						list-style-type: none;
+						height: 20%;
+						margin-left: -40px;
+							a {
+								display: flex;
+								align-items: center;
+								justify-content: center;
+								text-align: center;
+								// border: @border-marker;
+								text-decoration: none;
+								font-size: 3.5rem;
+								font-weight: bolder;
+								color: white;
+								text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+								width: 100%;
+								height: 100%;
+								vertical-align: center;
+								transition: all 0.5s ease-in-out;
+							}
+							:hover {
+								transition: all 0.5s ease-in-out;
+								background: rgba(255, 255, 255, 0.5);
+							}
+					}
 				}
 		}
 }
