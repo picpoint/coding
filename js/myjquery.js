@@ -1,29 +1,26 @@
 	$(document).ready(function(){
 
-	var main = $('.main-link');
+	var link = $('.main-link');	
 	var menu = $('.main-menu');
-	var link = $('.main-menu a');
-		
-		main.click(function(){
-			main.toggleClass('main-link-active');
-			menu.toggleClass('main-menu-active');
-		});
+	var link_active = $('.main-link-active');
+	var menu_active = $('.main-menu-active');
+	var nav_link = $('.main-menu ul li a');
+	
+	link.click(function(){
+		link.toggleClass('main-link-active');
+		menu.toggleClass('main-menu-active');
+	});
 
-		link.click(function(){
-			link.toggleClass('main-menu');
-		});
-		
+	link_active.click(function(){
+		link.removeClass('main-link-active');
+		menu.removeClass('main-menu-active');
+	});
+
+	nav_link.click(function(){
+		link.removeClass('main-link-active');
+		menu.removeClass('main-menu-active');
+	});
+
 	
 
 	});
-
-	/*
-
-.main - главный блок, родитель
-.main-link - кружок для клика вызова
-.main-link-active - кружек для клика АКТИВНЫЙ
-.main-menu - фиолетовое меню, по умолчанию не активное
-.main-menu-active - фиолетовое меню активное
-
-
-	*/

@@ -6,11 +6,8 @@ html {
 }
 
 .main {
-	// background-color: @background-color;
-	// border: @border-marker;
 	height: 100vh;
 		&-link {
-			// border: @border-marker;
 			background-color: white;
 			display: block;
 			position: fixed;
@@ -21,7 +18,6 @@ html {
 			height: 50px;
 			border-radius: 50%;
 			box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-			// transition: all 0.5s ease-in-out;
 				span, span:before, span:after {
 					display: block;
 					position: absolute;
@@ -37,24 +33,20 @@ html {
 				span:after {
 					content: '';
 					margin-top: -6px;
-					// transition: all 0.5s ease-in-out;
 				}
 				span:before {
 					content: '';
 					margin-top: 4px;
-					// transition: all 0.5s ease-in-out;
 				}
 		}
 		&-link-active span {
 			background-color: transparent;
 				&:before {
 					margin-top: 0;
-					// transition: all 0.5s ease-in-out;
 					transform: rotate(135deg);
 				}
 				&:after {
 					margin-top: 0;
-					// transition: all 0.5s ease-in-out;
 					transform: rotate(-135deg);
 				}
 		}
@@ -64,16 +56,13 @@ html {
 			justify-content: center;
 			height: 100%;
 			margin-left: -15px;
-			// border: @border-marker;
 			position: absolute;
 			left: -500vw;
 			transition: all 1s ease-in-out;
 			opacity: 0.95;
 				ul {
-					// border: @border-marker;
 					width: 100vw;
 					li {
-						// border: @border-marker;
 						list-style-type: none;
 						height: 20%;
 						margin-left: -40px;
@@ -82,7 +71,6 @@ html {
 								align-items: center;
 								justify-content: center;
 								text-align: center;
-								// border: @border-marker;
 								text-decoration: none;
 								font-size: 3.5rem;
 								font-weight: bolder;
@@ -91,12 +79,10 @@ html {
 								width: 100%;
 								height: 100%;
 								vertical-align: center;
-								// transition: all 0.5s ease-in-out;
 							}
 							:hover {
-								// transition: all 0.5s ease-in-out;
 								background: rgba(255, 255, 255, 0.5);
-								box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5)
+								box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 							}
 					}
 				}
@@ -104,15 +90,12 @@ html {
 		&-menu-active {
 			left: 0;
 		}
-		section {			
-			// border: @border-marker;
+		section {
 			display: block;
 			margin: 100px auto;
 			width: 60%;
-			// padding: 10px 0;
 			height: 100vh;
 				h2 {
-					// border: @border-marker;
 					text-align: center;
 					font-size: 3rem;
 				}
