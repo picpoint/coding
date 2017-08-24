@@ -5,4 +5,23 @@
 .main {
 	border: @border-marker;
 	height: 500px;
+		&-tab {
+			display: flex;
+			justify-content: center;
+			border: @border-marker;
+			height: 400px;
+			margin-top: 50px;
+				&-tabs {
+					border: @border-marker;
+					width: 20%;
+					height: 50px;
+					background-color: #aeaeae;
+					margin: 0 5px;
+					border-radius: 10px 10px 0 0;
+					text-align: center;
+						span {
+							font-size: 2rem;
+						}
+				}
+		}
 }

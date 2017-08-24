@@ -2,3 +2,26 @@
   border: 1px solid #ff0000;
   height: 500px;
 }
+.main-tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #ff0000;
+  height: 400px;
+  margin-top: 50px;
+}
+.main-tab-tabs {
+  border: 1px solid #ff0000;
+  width: 20%;
+  height: 50px;
+  background-color: #aeaeae;
+  margin: 0 5px;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+}
+.main-tab-tabs span {
+  font-size: 2rem;
+}
