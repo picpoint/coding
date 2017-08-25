@@ -4,24 +4,36 @@
 
 .main {
 	border: @border-marker;
-	height: 500px;
-		&-tab {
-			display: flex;
-			justify-content: center;
+	height: 100vh;
+		&-tabblock {
 			border: @border-marker;
-			height: 400px;
-			margin-top: 50px;
+			height: 50%;
+			margin-top: 100px;
 				&-tabs {
-					border: @border-marker;
-					width: 20%;
 					height: 50px;
-					background-color: #aeaeae;
-					margin: 0 5px;
-					border-radius: 10px 10px 0 0;
-					text-align: center;
-						span {
-							font-size: 2rem;
+					border: @border-marker;
+						&-one {
+							border: @border-marker;
+							display: inline-block;
+							height: 100%;
+							width: 50px;
 						}
+						&-two {
+							border: @border-marker;
+							display: inline-block;
+							height: 100%;
+							width: 50px;
+						}
+						&-tree {
+							border: @border-marker;
+							display: inline-block;
+							height: 100%;
+							width: 50px;
+						}
+				}
+				&-contents {
+					border: @border-marker;
+					height: 250px;
 				}
 		}
 }
