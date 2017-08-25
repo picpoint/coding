@@ -6,34 +6,73 @@
 	border: @border-marker;
 	height: 100vh;
 		&-tabblock {
-			border: @border-marker;
+			// border: @border-marker;
 			height: 50%;
 			margin-top: 100px;
 				&-tabs {
+					// border: @border-marker;
 					height: 50px;
-					border: @border-marker;
+					font-size: 2rem;
 						&-one {
+							text-align: center;
 							border: @border-marker;
 							display: inline-block;
 							height: 100%;
-							width: 50px;
+							width: 150px;
+							background-color: #aeaeae;
+							border-radius: 10px 10px 0 0;
+							cursor: pointer;
 						}
 						&-two {
+							text-align: center;
 							border: @border-marker;
 							display: inline-block;
 							height: 100%;
-							width: 50px;
+							width: 150px;
+							background-color: #aeaeae;
+							border-radius: 10px 10px 0 0;
+							cursor: pointer;
 						}
 						&-tree {
+							text-align: center;
 							border: @border-marker;
 							display: inline-block;
 							height: 100%;
-							width: 50px;
+							width: 150px;
+							background-color: #aeaeae;
+							border-radius: 10px 10px 0 0;
+							cursor: pointer;
 						}
 				}
 				&-contents {
-					border: @border-marker;
+					// border: @border-marker;
 					height: 250px;
+					width: 100%;
+						&-one {
+							display: none;
+							border: @border-marker;
+							height: 100%;
+							background-color: rgba(0, 0, 0, 0.1);
+						}
+						&-two {
+							display: none;
+							border: @border-marker;
+							height: 100%;
+							background-color: rgba(0, 0, 0, 0.1);
+						}
+						&-tree {
+							display: none;
+							border: @border-marker;
+							height: 100%;
+							background-color: rgba(0, 0, 0, 0.1);
+						}
 				}
+		}
+
+		.visible {
+			display: block;
+		}
+		.hidden {
+			display: none;
 		}
 }

@@ -1,5 +1,10 @@
 $(document).ready(function(){
 
-	console.log('Hello www');
+	var tabb = $('.tabb');
+
+	tabb.click(function(){
+		console.log('Click of tabb');
+	});
+	
 
 });

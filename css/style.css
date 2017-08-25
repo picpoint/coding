@@ -3,33 +3,68 @@
   height: 100vh;
 }
 .main-tabblock {
-  border: 1px solid #ff0000;
   height: 50%;
   margin-top: 100px;
 }
 .main-tabblock-tabs {
   height: 50px;
-  border: 1px solid #ff0000;
+  font-size: 2rem;
 }
 .main-tabblock-tabs-one {
+  text-align: center;
   border: 1px solid #ff0000;
   display: inline-block;
   height: 100%;
-  width: 50px;
+  width: 150px;
+  background-color: #aeaeae;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
 }
 .main-tabblock-tabs-two {
+  text-align: center;
   border: 1px solid #ff0000;
   display: inline-block;
   height: 100%;
-  width: 50px;
+  width: 150px;
+  background-color: #aeaeae;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
 }
 .main-tabblock-tabs-tree {
+  text-align: center;
   border: 1px solid #ff0000;
   display: inline-block;
   height: 100%;
-  width: 50px;
+  width: 150px;
+  background-color: #aeaeae;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
 }
 .main-tabblock-contents {
-  border: 1px solid #ff0000;
   height: 250px;
+  width: 100%;
+}
+.main-tabblock-contents-one {
+  display: none;
+  border: 1px solid #ff0000;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.main-tabblock-contents-two {
+  display: none;
+  border: 1px solid #ff0000;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.main-tabblock-contents-tree {
+  display: none;
+  border: 1px solid #ff0000;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.main .visible {
+  display: block;
+}
+.main .hidden {
+  display: none;
 }
