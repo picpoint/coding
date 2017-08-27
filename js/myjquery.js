@@ -1,10 +1,13 @@
 $(document).ready(function(){
 
-	var tabb = $('.tabb');
+	var tab = $('.tab');
 
-	tabb.click(function(){
-		console.log('Click of tabb');
-	});
 	
+	tab.click(function(){
+		var target = $(this).attr('data-target');
+		$('.tab-content').hide();
+		$('.'+target).show();
+
+	});
 
 });

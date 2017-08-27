@@ -7,43 +7,35 @@
 	<title>DZ_17</title>
 </head>
 <body>
-<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<!-- <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script> -->
+<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
 <script src="js/myjquery.js"></script>
 
-<div class="container-fluid">
-	<div class="row">
-		
-		<div class="main col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			
-			<div class="main-tabblock col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-xs-8">
-				<div class="main-tabblock-tabs">
-					<div class="main-tabblock-tabs-one tabb tab-content">
-						<span>Tab 1</span>
-					</div>
-					<div class="main-tabblock-tabs-two tabb tab-content">
-						<span>Tab 2</span>
-					</div>
-					<div class="main-tabblock-tabs-tree tabb tab-content">
-						<span>Tab 3</span>
-					</div>
-				</div>
-				<div class="main-tabblock-contents">
-					<div class="main-tabblock-contents-one tab-content">
-						<span>Контент 1</span>
-					</div>
-					<div class="main-tabblock-contents-two tab-content">
-						<span>Контент 2</span>
-					</div>
-					<div class="main-tabblock-contents-tree tab-content">
-						<span>Контент 3</span>
-					</div>
-				</div>
+	<div class="tabs-panel">
+		<div class="tabs">
+			<div data-target="tab-content-1" class="tab tab-1">
+				<span>Вкладка 1</span>
 			</div>
-
+			<div data-target="tab-content-2" class="tab tab-2">
+				<span>Вкладка 2</span>
+			</div>
+			<div data-target="tab-content-3" class="tab tab-3">
+				<span>Вкладка 3</span>
+			</div>
 		</div>
-
 	</div>
-</div>
+	
+	<div class="tab-contents">
+		<div class="tab-content tab-content-1">
+			<p>Содержимое вкладки 1</p>
+		</div>
+		<div class="tab-content tab-content-2">
+			<p>Содержимое вкладки 2</p>
+		</div>
+		<div class="tab-content tab-content-3">
+			<p>Содержимое вкладки 3</p>
+		</div>
+	</div>
 
 </body>
 </html>
