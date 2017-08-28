@@ -5,23 +5,31 @@
 	box-sizing: border-box;
 }
 
-.tab {
-	display: inline-block;
-	width: 200px;
-	background-color: #aeaeae;
-	text-align: center;
-	line-height: 40px;
-	border-radius: 10px 10px 0 0;
-	margin: 10px 0 0 0;
-	cursor: pointer;
-		&-content {
-			padding: 20px;
-			display: none;
-			width: 610px;
-			background-color: rgba(0, 0, 0, 0.1);
-			height: 200px;
-				&-1 {
-					display: block;
-				}
-		}
+.my-tabs {
+	// border: @border-marker;
+	.tab {
+		display: inline-block;
+		width: 200px;
+		background-color: #aeaeae;
+		text-align: center;
+		line-height: 40px;
+		border-radius: 10px 10px 0 0;
+		margin: 10px 0 0 0;
+		cursor: pointer;
+			&-content {
+				padding: 20px;
+				display: none;
+				width: 610px;
+				background-color: rgba(0, 0, 0, 0.1);
+				height: 200px;
+					&-1 {
+						display: block;
+					}
+			}
+	}
+
+}
+
+.boottabs {
+	display: block;
 }
