@@ -6,26 +6,35 @@
 	<title>Document</title>
 </head>
 <body>
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery-1.12.4.min.js"></script>
 <script src="js/parallax.js"></script>
-<script src="activate.js"></script>
+<script src="js/activate.js"></script>
+<!-- <script src="js/test.js"></script> -->
+<script>
+  
+  $(document).ready(function(){
+    var scene = document.getElementById('scene');
+  // or, if you use jQuery
+  var scene = $('#scene').get(0);
+  var parallax = new Parallax(scene);
+  });
 	
-	<div class="container-fluid">
-		<div class="row">
+</script>
 
-			<div class="main col-lg-12 col-md-8 col-sm-6 col-xs-4">
 
-			<div id="scene">
-			  <div data-depth="0.00"><img src="layer1.png"></div>
-			  <div data-depth="0.20"><img src="layer2.png"></div>
-			  <div data-depth="0.40"><img src="layer3.png"></div>
-			  <div data-depth="0.60"><img src="layer4.png"></div>
-			  <div data-depth="0.80"><img src="layer5.png"></div>
-			  <div data-depth="1.00"><img src="layer6.png"></div>
-			</div>
-				
-			</div>
 
-		</div>
-	</div>
+<div id="scene" class="fruit">
+  <div data-depth="2.00"><img src="img/01.png"></div>
+  <div data-depth="3.20"><img src="img/02.png"></div>
+  <div data-depth="4.40"><img src="img/03.png"></div>
+  <div data-depth="5.60"><img src="img/04.png"></div>
+  <div data-depth="0.80"><img src="img/05.png"></div>
+  <div data-depth="1.00"><img src="img/06.png"></div>
+</div>
+	
+	
 </body>
 </html>
