@@ -1,0 +1,10 @@
+.parallaxeffect {
+  border: 1px solid #ff0000;
+  height: 100vh;
+}
+.parallaxeffect img {
+  border: 1px solid #ff0000;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
