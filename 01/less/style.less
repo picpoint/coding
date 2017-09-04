@@ -1,2 +1,64 @@
 @border-marker: 1px solid red;
 
+* {
+box-sizing: border-box;
+}
+// <!-- HEADER START -->
+.wrapper {
+	width: 85%;
+	border: @border-marker;
+	height: 100vh;
+	margin: 0 auto;
+}
+.header {
+	border: @border-marker;
+	height: 100px;
+		&-logo {
+			border: @border-marker;
+			height: 100%;
+				a {
+					vertical-align: baseline;
+					//border: @border-marker;
+					img {
+						margin-top: 10%;
+						width: 100%;
+						border: @border-marker;
+					}
+				}
+
+		}
+		&-menu {
+			border: @border-marker;
+			height: 100%;
+			//padding: 0;
+				ul {
+					//display: inline-block;
+					border: @border-marker;
+					width: 100%;
+					height: 100%;
+					li {
+						display: inline-block;
+						float: right;
+						border: @border-marker;
+						list-style-type: none;
+						margin: 0 10px;
+						height: 100%;
+						a {
+							display: inline-block;
+							font-size: 2rem;
+							text-decoration: none;
+							//border: @border-marker;
+							height: 100%;
+							padding: 30px 0;
+							vertical-align: middle;
+						}
+					}
+				}
+		}
+
+
+}
+
+
+
+//<!-- HEADER STOP -->
