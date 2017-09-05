@@ -1,15 +1,25 @@
 @border-marker: 1px solid red;
+@background-color-main: #57b5f5;
 
 * {
 box-sizing: border-box;
 }
+
+.blue {
+	background-color: @background-color-main;
+	background-image: url("../img/cloud.png");
+	background-size: 90%;
+	background-position-x: 150px;
+}
+
 // <!-- HEADER START -->
 .wrapper {
-	width: 85%;
+	width: 80%;
 	border: @border-marker;
-	height: 100vh;
+	//height: 100vh;
 	margin: 0 auto;
 }
+
 .header {
 	border: @border-marker;
 	height: 100px;
@@ -56,9 +66,61 @@ box-sizing: border-box;
 				}
 		}
 
+	.header-menu {
+		padding: 0;
+	}
 
 }
 
 
-
 //<!-- HEADER STOP -->
+
+//*********************
+
+//<!--MAIN START-->
+
+	.main {
+		height: 1000px;
+		border: @border-marker;
+		//background: @background-color-main;
+		//background-image: url("../img/cloud.png");
+		//background-size: 100%;
+		//background-position-y: 150px;
+			&-describe {
+				height: 100%;
+				border: @border-marker;
+			}
+			&-phone {
+				border: @border-marker;
+				height: 100%;
+			}
+	}
+
+
+//<!--MAIN STOP-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

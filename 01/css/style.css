@@ -2,10 +2,15 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+.blue {
+  background-color: #57b5f5;
+  background-image: url("../img/cloud.png");
+  background-size: 90%;
+  background-position-x: 150px;
+}
 .wrapper {
-  width: 85%;
+  width: 80%;
   border: 1px solid #ff0000;
-  height: 100vh;
   margin: 0 auto;
 }
 .header {
@@ -48,4 +53,19 @@
   height: 100%;
   padding: 30px 0;
   vertical-align: middle;
+}
+.header .header-menu {
+  padding: 0;
+}
+.main {
+  height: 1000px;
+  border: 1px solid #ff0000;
+}
+.main-describe {
+  height: 100%;
+  border: 1px solid #ff0000;
+}
+.main-phone {
+  border: 1px solid #ff0000;
+  height: 100%;
 }
