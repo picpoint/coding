@@ -69,9 +69,7 @@ box-sizing: border-box;
 	.header-menu {
 		padding: 0;
 	}
-
 }
-
 
 //<!-- HEADER STOP -->
 
@@ -80,21 +78,61 @@ box-sizing: border-box;
 //<!--MAIN START-->
 
 	.main {
-		height: 1000px;
+		//height: 1000px;
 		border: @border-marker;
-		//background: @background-color-main;
-		//background-image: url("../img/cloud.png");
-		//background-size: 100%;
-		//background-position-y: 150px;
+		color: white;
 			&-describe {
 				height: 100%;
 				border: @border-marker;
+					h1 {
+						margin-top: 25%;
+						font-weight: bolder;
+						font-size: 5rem;
+						border: @border-marker;
+						width: 70%;
+					}
+					h4 {
+						border: @border-marker;
+						font-size: 2.5rem;
+						font-style: italic;
+					}
+					span {
+						display: inline-block;
+						//border: @border-marker;
+						margin-top: 50px;
+					}
+					&-freetext {
+						//border: @border-marker;
+						height: 10px;
+						display: inline-block;
+							span {
+								background-color: #ffce54;
+								padding: 3px 10px;
+								border-radius: 5px;
+							}
+					}
+				&-input {
+					color: #bec2c8;
+					border: @border-marker;
+					input {
+						margin-top: 30px;
+						height: 50px;
+						width: 60%;
+						border-radius: 5px;
+						border: none;
+						font-size: 2rem;
+					}
+				}
 			}
 			&-phone {
 				border: @border-marker;
 				height: 100%;
+					img {
+						margin-top: 100px;
+					}
 			}
 	}
+
 
 
 //<!--MAIN STOP-->

@@ -58,14 +58,54 @@
   padding: 0;
 }
 .main {
-  height: 1000px;
   border: 1px solid #ff0000;
+  color: white;
 }
 .main-describe {
   height: 100%;
   border: 1px solid #ff0000;
 }
+.main-describe h1 {
+  margin-top: 25%;
+  font-weight: bolder;
+  font-size: 5rem;
+  border: 1px solid #ff0000;
+  width: 70%;
+}
+.main-describe h4 {
+  border: 1px solid #ff0000;
+  font-size: 2.5rem;
+  font-style: italic;
+}
+.main-describe span {
+  display: inline-block;
+  margin-top: 50px;
+}
+.main-describe-freetext {
+  height: 10px;
+  display: inline-block;
+}
+.main-describe-freetext span {
+  background-color: #ffce54;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+.main-describe-input {
+  color: #bec2c8;
+  border: 1px solid #ff0000;
+}
+.main-describe-input input {
+  margin-top: 30px;
+  height: 50px;
+  width: 60%;
+  border-radius: 5px;
+  border: none;
+  font-size: 2rem;
+}
 .main-phone {
   border: 1px solid #ff0000;
   height: 100%;
+}
+.main-phone img {
+  margin-top: 100px;
 }
