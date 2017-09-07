@@ -8,17 +8,18 @@
   background-size: 90%;
   background-position-x: 150px;
 }
+.nonebkg {
+  background-image: none;
+  background-color: white;
+}
 .wrapper {
   width: 80%;
-  border: 1px solid #ff0000;
   margin: 0 auto;
 }
 .header {
-  border: 1px solid #ff0000;
   height: 100px;
 }
 .header-logo {
-  border: 1px solid #ff0000;
   height: 100%;
 }
 .header-logo a {
@@ -27,21 +28,17 @@
 .header-logo a img {
   margin-top: 10%;
   width: 100%;
-  border: 1px solid #ff0000;
 }
 .header-menu {
-  border: 1px solid #ff0000;
   height: 100%;
 }
 .header-menu ul {
-  border: 1px solid #ff0000;
   width: 100%;
   height: 100%;
 }
 .header-menu ul li {
   display: inline-block;
   float: right;
-  border: 1px solid #ff0000;
   list-style-type: none;
   margin: 0 10px;
   height: 100%;
@@ -57,25 +54,25 @@
 .header .header-menu {
   padding: 0;
 }
+.header .header-logo {
+  padding: 0;
+}
 .main {
-  border: 1px solid #ff0000;
   color: white;
 }
 .main-describe {
   height: 100%;
-  border: 1px solid #ff0000;
 }
 .main-describe h1 {
   margin-top: 25%;
   font-weight: bolder;
-  font-size: 5rem;
-  border: 1px solid #ff0000;
+  font-size: 6rem;
   width: 70%;
 }
 .main-describe h4 {
-  border: 1px solid #ff0000;
   font-size: 2.5rem;
   font-style: italic;
+  margin-top: 30px;
 }
 .main-describe span {
   display: inline-block;
@@ -90,22 +87,66 @@
   padding: 3px 10px;
   border-radius: 5px;
 }
-.main-describe-input {
+.main-describe-form-input {
   color: #bec2c8;
-  border: 1px solid #ff0000;
-}
-.main-describe-input input {
   margin-top: 30px;
+  width: 65%;
+  display: inline-block;
+}
+.main-describe-form-input input {
   height: 50px;
-  width: 60%;
+  width: 100%;
   border-radius: 5px;
   border: none;
   font-size: 2rem;
 }
+.main-describe-form-sing {
+  display: inline-block;
+  margin-left: 50px;
+}
+.main-describe-form-sing button {
+  background-color: #77c344;
+  border-radius: 5px;
+  border: none;
+  height: 50px;
+  width: 100px;
+}
 .main-phone {
-  border: 1px solid #ff0000;
   height: 100%;
 }
 .main-phone img {
   margin-top: 100px;
+}
+.main .main-describe {
+  padding: 0;
+}
+.main {
+  padding: 0 !important;
+}
+.footer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.footer-wrapper-fott {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: none;
+  height: 150px;
+  width: 82%;
+}
+.container-fluid {
+  padding: 0 !important;
+}
+.row {
+  width: 100vw;
 }

@@ -2,7 +2,7 @@
 @background-color-main: #57b5f5;
 
 * {
-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .blue {
@@ -12,19 +12,24 @@ box-sizing: border-box;
 	background-position-x: 150px;
 }
 
+.nonebkg {
+	background-image: none;
+	background-color: white;
+}
+
 // <!-- HEADER START -->
 .wrapper {
 	width: 80%;
-	border: @border-marker;
+	//border: @border-marker;
 	//height: 100vh;
 	margin: 0 auto;
 }
 
 .header {
-	border: @border-marker;
+	//border: @border-marker;
 	height: 100px;
 		&-logo {
-			border: @border-marker;
+			//border: @border-marker;
 			height: 100%;
 				a {
 					vertical-align: baseline;
@@ -32,24 +37,24 @@ box-sizing: border-box;
 					img {
 						margin-top: 10%;
 						width: 100%;
-						border: @border-marker;
+						//border: @border-marker;
 					}
 				}
-
 		}
+
 		&-menu {
-			border: @border-marker;
+			//border: @border-marker;
 			height: 100%;
 			//padding: 0;
 				ul {
 					//display: inline-block;
-					border: @border-marker;
+					//border: @border-marker;
 					width: 100%;
 					height: 100%;
 					li {
 						display: inline-block;
 						float: right;
-						border: @border-marker;
+						//border: @border-marker;
 						list-style-type: none;
 						margin: 0 10px;
 						height: 100%;
@@ -69,6 +74,9 @@ box-sizing: border-box;
 	.header-menu {
 		padding: 0;
 	}
+	.header-logo {
+		padding: 0;
+	}
 }
 
 //<!-- HEADER STOP -->
@@ -79,22 +87,23 @@ box-sizing: border-box;
 
 	.main {
 		//height: 1000px;
-		border: @border-marker;
+		//border: @border-marker;
 		color: white;
 			&-describe {
 				height: 100%;
-				border: @border-marker;
+				//border: @border-marker;
 					h1 {
 						margin-top: 25%;
 						font-weight: bolder;
-						font-size: 5rem;
-						border: @border-marker;
+						font-size: 6rem;
+						//border: @border-marker;
 						width: 70%;
 					}
 					h4 {
-						border: @border-marker;
+						//border: @border-marker;
 						font-size: 2.5rem;
 						font-style: italic;
+						margin-top: 30px;
 					}
 					span {
 						display: inline-block;
@@ -111,35 +120,83 @@ box-sizing: border-box;
 								border-radius: 5px;
 							}
 					}
-				&-input {
-					color: #bec2c8;
-					border: @border-marker;
-					input {
+				&-form {
+					&-input {
+						color: #bec2c8;
+						//border: @border-marker;
 						margin-top: 30px;
-						height: 50px;
-						width: 60%;
-						border-radius: 5px;
-						border: none;
-						font-size: 2rem;
+						width: 65%;
+						display: inline-block;
+						input {
+							height: 50px;
+							width: 100%;
+							border-radius: 5px;
+							border: none;
+							font-size: 2rem;
+						}
+					}
+					&-sing {
+						//border: @border-marker;
+						display: inline-block;
+						margin-left: 50px;
+							button {
+								background-color: #77c344;
+								border-radius: 5px;
+								border: none;
+								height: 50px;
+								width: 100px;
+							}
 					}
 				}
+
 			}
 			&-phone {
-				border: @border-marker;
+				//border: @border-marker;
 				height: 100%;
 					img {
 						margin-top: 100px;
 					}
 			}
+		.main-describe {
+			 padding: 0;
+		 }
 	}
 
+.main {
+	padding: 0 !important;
+}
 
+// <!--MAIN STOP-->
 
-//<!--MAIN STOP-->
+// ***************************
 
+// <!-- FOOTER START-->
+.footer {
+	&-wrapper {
+		display: flex;
+		justify-content: center;
+		&-fott {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			//border: @border-marker;
+			background-color: none;
+			height: 150px;
+			width: 82%;
+		}
+	}
 
+}
 
-
+.container-fluid {
+	padding: 0 !important;
+	//border: 1px solid black;
+}
+.row {
+	//border: 1px solid green;
+	width: 100vw;
+}
+// <!-- FOOTER STOP-->
 
 
 
