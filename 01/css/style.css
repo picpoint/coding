@@ -60,6 +60,10 @@
 .main {
   color: white;
 }
+.main-proba img {
+  width: 100px;
+  height: 100px;
+}
 .main-describe {
   height: 100%;
 }
