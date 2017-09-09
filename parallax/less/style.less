@@ -1,0 +1,23 @@
+@border-marker: 1px solid red;
+@background-color-main: #57b5f5;
+
+* {
+	box-sizing: border-box;
+}
+
+
+.main {
+	display: flex;
+	flex-direction: column;
+	height: 150vh;
+	border: @border-marker;
+	background: radial-gradient(at bottom, #0848a0, #170338);
+	//background-image: url("../img/bkg.jpg");
+	//background-size: cover;
+		&-moon {
+			border: @border-marker;
+			width: 200px;
+			height: 200px;
+			}
+
+}

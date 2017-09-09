@@ -1,0 +1,21 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 150vh;
+  border: 1px solid #ff0000;
+  background: radial-gradient(at bottom, #0848a0, #170338);
+}
+.main-moon {
+  border: 1px solid #ff0000;
+  width: 200px;
+  height: 200px;
+}
