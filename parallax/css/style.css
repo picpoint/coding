@@ -10,12 +10,197 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 150vh;
-  border: 1px solid #ff0000;
+  height: 100vh;
   background: radial-gradient(at bottom, #0848a0, #170338);
 }
 .main-moon {
-  border: 1px solid #ff0000;
-  width: 200px;
-  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  top: 30%;
+}
+.main-moon img {
+  width: 700px;
+  height: 350px;
+}
+.main .cloud1 {
+  z-index: 2;
+}
+.main .cloud1 img {
+  position: relative;
+  top: -300px;
+}
+.main .cloud2 img {
+  width: 100px;
+  position: relative;
+  top: -250px;
+  left: 300px;
+}
+.main .cloud3 img {
+  width: 65px;
+  position: absolute;
+  top: -170px;
+  left: 370px;
+}
+.main .cloud4 img {
+  width: 30px;
+  position: relative;
+  top: -250px;
+  left: 420px;
+}
+.main .cloud5 img {
+  position: relative;
+  top: -450px;
+  left: 500px;
+  width: 475px;
+  z-index: 1;
+}
+.main .cloud6 img {
+  position: relative;
+  top: -300px;
+  left: 950px;
+  width: 275px;
+  z-index: 1;
+}
+.main .cloud7 img {
+  position: relative;
+  top: -250px;
+  left: 950px;
+  width: 125px;
+  z-index: 1;
+}
+.main .cloud8 img {
+  position: relative;
+  top: -350px;
+  left: 675px;
+  width: 275px;
+  z-index: 1;
+}
+.main .cloud9 img {
+  position: relative;
+  top: -300px;
+  left: 1455px;
+  width: 575px;
+  z-index: 3;
+}
+.main .cloud10 img {
+  position: relative;
+  top: -400px;
+  left: 1300px;
+  width: 225px;
+  z-index: 6;
+}
+.main .cloud11 img {
+  position: relative;
+  top: -200px;
+  left: 1200px;
+  width: 125px;
+  z-index: 5;
+}
+.main .star1 img {
+  position: relative;
+  top: -300px;
+  left: 10px;
+  width: 25px;
+}
+.main .star2 img {
+  position: relative;
+  top: -350px;
+  left: 175px;
+  width: 55px;
+}
+.main .star3 img {
+  position: relative;
+  top: -250px;
+  left: 415px;
+  width: 45px;
+}
+.main .star4 img {
+  position: relative;
+  top: -140px;
+  left: 160px;
+  width: 35px;
+  z-index: 1;
+}
+.main .star5 img {
+  position: relative;
+  top: -258px;
+  left: 327px;
+  width: 47px;
+}
+.main .star6 img {
+  position: relative;
+  top: -329px;
+  left: 387px;
+  width: 35px;
+}
+.main .star7 img {
+  position: relative;
+  top: -279px;
+  left: 441px;
+  width: 42px;
+}
+.main .star8 img {
+  position: relative;
+  top: -179px;
+  left: 641px;
+  width: 23px;
+}
+.main .star9 img {
+  position: relative;
+  top: -209px;
+  left: 681px;
+  width: 28px;
+}
+.main .star10 img {
+  position: relative;
+  top: -239px;
+  left: 721px;
+  width: 32px;
+}
+.main .star11 img {
+  position: relative;
+  top: -39px;
+  left: 1201px;
+  width: 52px;
+}
+.main .star12 img {
+  position: relative;
+  top: -100px;
+  left: 1351px;
+  width: 12px;
+}
+.main .star13 img {
+  position: relative;
+  top: -149px;
+  left: 1571px;
+  width: 42px;
+}
+.main .star14 img {
+  position: relative;
+  top: -183 px;
+  left: 1421px;
+  width: 25px;
+}
+.main .star15 img {
+  position: relative;
+  top: -239px;
+  left: 1100px;
+  width: 7px;
+}
+.main .star16 img {
+  position: relative;
+  top: -389px;
+  left: 1771px;
+  width: 27px;
+}
+.main .star17 img {
+  position: relative;
+  top: -223px;
+  left: 1837px;
+  width: 32px;
 }
