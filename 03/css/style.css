@@ -1,3 +1,19 @@
 .rellax {
+  border: 1px solid #ff0000;
   height: 50vh;
+}
+.header {
+  border: 1px solid #ff0000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  background-color: #245269;
+}
+.header-logo {
+  height: 100px;
+  border: 1px solid #ff0000;
+}
+.header-logo img {
+  border: 1px solid #ff0000;
 }
