@@ -1,5 +1,10 @@
 @border-marker: 1px solid red;
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .rellax {
   border: @border-marker;
   height: 50vh;
@@ -8,15 +13,60 @@
 // <!-- HEADER START-->
 .header {
   border: @border-marker;
-  display: flex;
-  height: 300px;
-  background-color: #245269;
-    &-logo {
-      height: 100px;
+  height: 750px;
+  background-color: black;
+  background-image: url("../img/background.png");
+  color: white;
+    &-wrapper {
+      width: 70%;
+      height: 100%;
+      margin: 0 auto;
       border: @border-marker;
+      &-logo {
+        height: 100px;
+        border: @border-marker;
         img {
           border: @border-marker;
+          float: right;
+          width: 80%;
+          margin-top: 30px;
         }
+      }
+      &-caption {
+        margin-top: 23%;
+        border: @border-marker;
+          h1 {
+            border: @border-marker;
+            text-align: center;
+            font-size: 5rem;
+            font-family: 'Jura', sans-serif;
+
+          }
+      }
+      &-menu {
+        //border: @border-marker;
+          ul {
+            display: block;
+            margin: 0 auto;
+            border: @border-marker;
+            li {
+              display: inline-block;
+              list-style-type: none;
+              a {
+                color: white;
+                font-size: 1.5rem;
+                margin: 0 20px;
+                //padding: 20px 0;
+                text-decoration: none;
+              }
+            }
+          }
+      }
     }
 }
+
+.header-wrapper div {
+  padding: 0;
+}
 // <!-- HEADER STOP-->
+
