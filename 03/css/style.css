@@ -63,4 +63,16 @@
 }
 .digital {
   border: 1px solid #ff0000;
+  text-align: center;
+}
+.digital h4 {
+  margin-top: 50px;
+  border: 1px solid #ff0000;
+}
+.digital span {
+  border: 1px solid #ff0000;
+  display: inline-block;
+  font-size: 1.5rem;
+  width: 15%;
+  margin-bottom: 50px;
 }
