@@ -86,18 +86,19 @@
 // <!-- DIGITAL START-->
 
 .digital {
-  border: @border-marker;
+  //border: @border-marker;
   text-align: center;
     h4 {
       margin-top: 50px;
-      border: @border-marker;
+      font-size: 2.5rem;
+     // border: @border-marker;
     }
     span {
-      border: @border-marker;
+     // border: @border-marker;
       display: inline-block;
-      font-size: 1.5rem;
-      width: 15%;
-      margin-bottom: 50px;
+      font-size: 2rem;
+      width: 20%;
+      //margin-bottom: 50px;
     }
 }
 
@@ -107,6 +108,51 @@
 
 // <!-- LEARN START-->
 
+.learn {
+  height: 500px;
+  border: @border-marker;
+  display: flex;
+    &-block1 {
+      border: @border-marker;
+      height: 100%;
+        &-bkgcyan {
+          //border: @border-marker;
+          img {
+            //border: @border-marker;
+            margin-top: 50px;
+            height: 600px;
+            width: 600px;
+            opacity: 0.9;
+          }
+        }
+        &-line {
+          position: relative;
+          top: -650px;
+          left: 1000px;
+            img {
+              width: 150px;
+              height: 150px;
+            }
+        }
+        &-circle1 {
+          position: relative;
+          top: -770px;
+          left: 1000px;
+            img {
+            }
+        }
+        &-circle2 {
+          position: relative;
+          top: -820px;
+          left: 1550px;
+          img {
+          }
+        }
+        &-ideology {
 
+        }
+
+    }
+}
 
 // <!-- LEARN STOP-->
