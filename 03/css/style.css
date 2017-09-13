@@ -3,11 +3,9 @@
   margin: 0;
 }
 .rellax {
-  border: 1px solid #ff0000;
   height: 50vh;
 }
 .header {
-  border: 1px solid #ff0000;
   height: 750px;
   background-color: black;
   background-image: url("../img/background.png");
@@ -15,34 +13,35 @@
 }
 .header-wrapper {
   width: 70%;
-  height: 100%;
+  height: 750px;
   margin: 0 auto;
-  border: 1px solid #ff0000;
 }
 .header-wrapper-logo {
   height: 100px;
-  border: 1px solid #ff0000;
 }
 .header-wrapper-logo img {
-  border: 1px solid #ff0000;
-  float: right;
-  width: 80%;
+  width: 15%;
   margin-top: 30px;
 }
 .header-wrapper-caption {
   margin-top: 23%;
-  border: 1px solid #ff0000;
 }
 .header-wrapper-caption h1 {
-  border: 1px solid #ff0000;
   text-align: center;
   font-size: 5rem;
   font-family: 'Jura', sans-serif;
 }
+.header-wrapper-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 .header-wrapper-menu ul {
   display: block;
-  margin: 0 auto;
-  border: 1px solid #ff0000;
+  margin: 150px auto 0 auto;
 }
 .header-wrapper-menu ul li {
   display: inline-block;
@@ -52,8 +51,16 @@
   color: white;
   font-size: 1.5rem;
   margin: 0 20px;
+  padding: 10px 0;
   text-decoration: none;
+}
+.header-wrapper-menu ul li a:hover {
+  border-bottom: 3px solid #1bf1ad;
+  font-weight: bolder;
 }
 .header-wrapper div {
   padding: 0;
+}
+.digital {
+  border: 1px solid #ff0000;
 }

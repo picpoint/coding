@@ -1,4 +1,5 @@
 @border-marker: 1px solid red;
+@green-color: #1bf1ad;
 
 * {
   padding: 0;
@@ -6,37 +7,38 @@
 }
 
 .rellax {
-  border: @border-marker;
+  //border: @border-marker;
   height: 50vh;
 }
 
 // <!-- HEADER START-->
 .header {
-  border: @border-marker;
+  //border: @border-marker;
   height: 750px;
   background-color: black;
   background-image: url("../img/background.png");
   color: white;
     &-wrapper {
       width: 70%;
-      height: 100%;
+      height: 750px;
       margin: 0 auto;
-      border: @border-marker;
+      //border: @border-marker;
       &-logo {
         height: 100px;
-        border: @border-marker;
+        //width: 100%;
+        //border: @border-marker;
         img {
-          border: @border-marker;
-          float: right;
-          width: 80%;
+          //border: @border-marker;
+          //float: right;
+          width: 15%;
           margin-top: 30px;
         }
       }
       &-caption {
         margin-top: 23%;
-        border: @border-marker;
+        //border: @border-marker;
           h1 {
-            border: @border-marker;
+            //border: @border-marker;
             text-align: center;
             font-size: 5rem;
             font-family: 'Jura', sans-serif;
@@ -45,19 +47,28 @@
       }
       &-menu {
         //border: @border-marker;
+        display: flex;
+        justify-content: center;
+        //height: 100%;
           ul {
             display: block;
-            margin: 0 auto;
-            border: @border-marker;
+            margin: 150px auto 0 auto;
+            //border: @border-marker;
             li {
               display: inline-block;
               list-style-type: none;
+              //border: @border-marker;
               a {
+                //border: @border-marker;
                 color: white;
                 font-size: 1.5rem;
                 margin: 0 20px;
-                //padding: 20px 0;
+                padding: 10px 0;
                 text-decoration: none;
+                  &:hover {
+                    border-bottom: 3px solid @green-color;
+                    font-weight: bolder;
+                  }
               }
             }
           }
@@ -70,3 +81,12 @@
 }
 // <!-- HEADER STOP-->
 
+// **************************
+
+// <!-- DIGITAL START-->
+
+.digital {
+  border: @border-marker;
+}
+
+// <!-- DIGITAL STOP-->
