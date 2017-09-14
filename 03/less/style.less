@@ -1,5 +1,6 @@
 @border-marker: 1px solid red;
 @green-color: #1bf1ad;
+@color-win: #e98457;
 
 * {
   padding: 0;
@@ -92,12 +93,14 @@
       margin-top: 50px;
       font-size: 2.5rem;
      // border: @border-marker;
+      font-family: 'Orbitron', sans-serif;
     }
     span {
      // border: @border-marker;
       display: inline-block;
       font-size: 2rem;
       width: 20%;
+      font-family: 'Changa', sans-serif;
       //margin-bottom: 50px;
     }
 }
@@ -122,7 +125,9 @@
             margin-top: 50px;
             height: 600px;
             width: 600px;
-            opacity: 0.9;
+            opacity: 0.6;
+            z-index: 3;
+            position: relative;
           }
         }
         &-line {
@@ -149,7 +154,35 @@
           }
         }
         &-ideology {
-
+          h4 {
+            position: relative;
+            top: -820px;
+            left: 610px;
+            font-family: 'Archivo Black', sans-serif;
+          }
+        }
+        &-mannearboard {
+          img {
+            position: relative;
+            top: -820px;
+            z-index: 2;
+            //left: 610px;
+          }
+        }
+        &-experiment {
+          position: relative;
+          top: -1400px;
+          left: 850px;
+            h1 {
+              display: inline-block;
+              width: 1100px;
+              border: @border-marker;
+              font-size: 6rem;
+              font-family: 'Rubik Mono One', sans-serif;
+                span {
+                  color: @color-win;
+                }
+            }
         }
 
     }
