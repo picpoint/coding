@@ -288,7 +288,7 @@
       //width: 100%;
       height: 100%;
       margin: 0 20px;
-      opacity: 0.3;
+      opacity: 0.5;
         &:hover {
           //background-image: url("../img/backgroundcyan.png");
           opacity: 1;
@@ -304,15 +304,15 @@
 
 // <!-- FOOTER START-->
 .button {
-  border: @border-marker;
+  //border: @border-marker;
   margin-top: 50px;
   background-color: @background-color-footer;
   .footer {
-    border: @border-marker;
+    //border: @border-marker;
     height: 250px;
     display: flex;
       &-leftblock {
-        border: @border-marker;
+        //border: @border-marker;
         height: 100%;
         width: 70%;
           img {
@@ -325,7 +325,7 @@
             justify-content: space-between;
             margin-top: 30px;
             li {
-              border: @border-marker;
+              //border: @border-marker;
               a {
                 text-decoration: none;
                 color: #000;
@@ -335,9 +335,34 @@
           }
       }
       &-rightblock {
-        border: @border-marker;
+        //border: @border-marker;
         height: 100%;
         width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+          &-center {
+            //border: @border-marker;
+            width: 50%;
+            height: 50%;
+              &-social {
+               //border: @border-marker;
+              }
+              &-tel {
+                //border: @border-marker;
+                margin-top: 20px;
+                  span {
+                    font-weight: bolder;
+                  }
+              }
+              &-mail {
+                //border: @border-marker;
+                margin-top: 10px;
+                  span {
+                    font-weight: bolder;
+                  }
+              }
+          }
       }
   }
 }
