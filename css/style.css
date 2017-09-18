@@ -1,0 +1,222 @@
+
+* {
+	/*background-color: black;*/
+	box-sizing: border-box;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	/*height: 900px;*/
+	width: 100%;
+	background-color: black;
+}
+
+.header {
+	width: 100%;
+	height: 15%;
+	/*border: 1px solid blue;*/
+	background-color: black;
+}
+
+.lining {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/*border: 1px solid tomato;*/
+	height: 100%;
+	width: 85%;
+	margin: 0 auto;
+}
+
+.block1 {
+	display: flex;
+	/*border: 1px solid red;*/
+}
+
+.logo {
+	/*height: 100%;*/
+	/*border: 1px solid green;*/
+}
+
+.logo__img {
+	height: 75px;
+	width: 135px;
+}
+
+.list {
+	display: inline-flex;
+	align-items: center;
+}
+
+.list__item {
+	list-style-type: none;
+	margin-left: 30px;
+}
+
+.list__item:hover {
+	text-decoration: underline;
+}
+
+.list__link {
+	text-decoration: none;
+	color: white;
+}
+
+.main {
+	display: flex;
+	/*border: 1px solid white;*/
+	background-image: url("../img/bckgrnd.jpg");
+	width: 100%;
+	height: 100%;
+}
+
+.menu {
+	height: 100%;
+	width: 25%;
+	/*border: 1px solid green;*/
+}
+
+.ilisha, .etasha, .annaya, .aina, .param, .omisha {
+	display: flex;
+	width: 100%;
+	height: 16.7%;
+	align-items: center;
+}
+
+.ilisha__img, .etasha__img, .annaya__img, .aina__img, .param__img, .omisha__img {
+	width: 40%;
+	height: 100%;
+	margin-left: 10px; 
+}
+
+.ilisha__pict, .etasha__pict, .annaya__pict, .aina__pict, .param__pict, .omisha__pict {
+	width: 100%;
+	height: 100%;
+}
+
+.ilisha__describe, .etasha__describe, .annaya__describe, .aina__describe, .param__describe, .omisha__describe {
+	display: flex;
+	justify-content: center;
+	/*align-items: center;*/
+	width: 60%;
+	height: 100%;
+}
+
+.ilisha__text, .etasha__text, .annaya__text, .aina__text, .param__text, .omisha__text {
+	color: white;
+}
+
+.details {
+	display: flex;
+	height: 100%;
+	width: 75%;
+	/*border: 1px solid yellow;	*/
+}
+
+.details__img {
+	width: 60%;
+}
+
+.details__describe {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 40%;
+}
+
+.details__describe_heading, .details__describe_text {
+	color: white;
+}
+
+.block2{
+	color: white;
+	display: flex;
+	width: 100%;
+	/*border: 1px solid red;*/
+	background-color: black;
+}
+
+.categories {
+	display: flex;
+	flex-direction: column;
+	/*border: 1px solid yellow;*/
+	width: 25%;
+	height: 300px;
+}
+
+.categories__caption, .ilisha-about__caption, .virtual__caption {
+	width: 100%;
+	height: 10%;
+	background-color: #646262;
+	margin: 0;
+	padding: 3px 10px;
+}
+
+.categories__list {
+	padding: 10px 35px;
+	border-bottom: 1px solid white;
+}
+
+.ilisha-about {
+	/*border: 1px solid yellow;*/
+	width: 50%;
+	height: 300px;
+	margin: 0 20px;
+}
+
+.virtual {
+	display: flex;
+	flex-direction: column;
+	/*border: 1px solid yellow;*/
+	width: 25%;
+	height: 300px;	
+}
+
+.virtual__caption {
+	display: flex;
+}
+
+.virtual-block {
+	display: flex;
+	/*justify-content: center;*/
+	align-items: center;
+	margin-top: 20px;
+}
+
+.virtual__img {
+	width: 50%;
+	/*height: 30%;*/
+	/*border: 1px solid cyan;*/
+	margin-right: 5px;
+}
+
+.virtual__pict {
+	width: 100%;
+	height: 100%;
+}
+
+.virtual__text {
+	width: 50%;
+	margin-left: 5px;
+	/*height: 30%;*/
+	/*border: 1px solid red;*/
+}
+
+.footer {
+	display: flex;
+	background-color: black;
+	border-top: 1px solid white;
+}
+
+.footer-block {
+	display: flex;
+	justify-content: center;
+	/*border: 1px solid cyan;*/
+	width: 100%;
+}
+
+.footer__text {
+	color: white;
+}
