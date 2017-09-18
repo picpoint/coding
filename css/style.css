@@ -1,0 +1,136 @@
+.header {
+	display: flex;
+	/*flex-direction: column;*/
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0;
+	border-bottom: 1px solid #a9a9a9;
+}
+
+.header__logo {
+	width: 90px;
+	height: 25px;
+	margin: auto;
+}
+
+.header__menu {
+	margin: auto;
+}
+
+.header__menu li {
+	list-style-type: none;
+	display: inline;
+	margin: 0 10px;
+}
+
+.header__menu li a {
+	text-decoration: none;
+	color: black;
+}
+
+.login {
+	margin: auto;
+	/*border: 1px solid black;*/
+}
+
+.button__login_sing {
+	border-radius: 20px;
+	border: 2px solid #a9a9a9;
+	background-color: #FFFFFF;
+	padding: 3px 10px;
+	cursor: pointer;
+	font-size: 10px;
+}
+
+.secondary-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/*border: 1px solid black;*/
+}
+
+.secondary-menu__left { 
+	/*border: 1px solid black;*/
+	flex-grow: 2;
+	margin: 10px  0 10px 40px;
+}
+
+.secondary-menu__left li {
+	display: inline;
+	list-style-type: none;
+	margin-left: 20px;
+}
+
+.secondary-menu__left li a {
+	text-decoration: none;
+	color: #a9a9a9;
+}
+
+.secondary-menu__left li a:hover {
+	color: black;
+}
+
+.secondary-menu__left li:nth-child(6) {
+	/*margin-right: auto;*/
+	/*border: 1px solid black;*/
+}
+
+.secondary-menu__right {
+	padding: 10px  40px  10px 10px;
+	/*border: 1px solid black;*/
+	/*padding: 10px;*/
+}
+
+.secondary-menu__right_input {
+	margin-right: auto;
+	outline: none;
+}
+
+.main {
+	display: flex;
+	/*flex-direction: column;*/
+	justify-content: center;
+	background-color: #1d1e23;
+	border: 1px solid black;
+	/*height: 400px;*/
+}
+
+.main__describe {
+	/*display: flex;*/
+	/*border: 1px solid lightgrey;*/
+	width: 45%;
+	height: 100%;
+	/*align-items: center;*/
+}
+
+.main__describe_caption {
+	color: white;
+	font-weight: bolder;
+	font-family: Arial Black;
+	font-size: 250%;
+}
+
+.main__describe_about {
+	color: white;
+	/*align-self: center;*/
+}
+
+.main__pict {
+	/*border: 1px solid lightblue;*/
+	width: 25%;
+}
+
+.main__pict_phone {
+	width: 100%;
+	height: 100%;
+}
+
+.main__describe_button {
+	width: 130px;
+	height: 30px;
+	background-color: #2754eb;
+	color: white;
+	margin-top: 50px;
+	border-radius: 20px;
+	border: 1px solid #2754eb;
+}
