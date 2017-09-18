@@ -1,0 +1,637 @@
+@border: 1px solid black;
+@border-marker: 1px solid red;
+@inline-block: inline-block;
+@color-yellow: #fee13d;
+@color-white: #ffffff;
+@color-text: #18183a;
+@background-color-features: #fbf8f1;
+
+body {
+	box-sizing: border-box;
+}
+
+
+.container {
+	height: 100px;
+}
+
+
+.logo {
+	display: @inline-block;
+	margin: 30px 0;
+	width: 30px;
+	height: 100%;
+}
+
+.logo-text {
+	display: @inline-block;
+	font-size: 20px;
+
+	.bolder {
+		font-weight: bold;
+	}
+}
+
+
+.header-block-center {
+	height: 100px;
+
+	.list {
+		margin: 30px 0; 
+
+		&-li {
+			display: inline-block;
+			margin-right: 30px;
+			list-style-type: none;
+
+			a {
+				text-decoration: none;
+				padding: 50px 0;
+			}
+
+			a:hover {
+				color: @color-yellow;
+			}
+
+		}
+	}
+}
+
+
+
+.header-block-right {
+	height: 100px;
+
+	&-text {
+		width: 100%;
+		height: 50%;
+	}
+
+	.button-chat {
+		display: inline-block;
+		background-color: @color-yellow;
+		width: 35%;
+		padding: 10px 15px;
+
+		a {
+			color: @color-text;
+			text-decoration: none;
+		}
+	}
+
+	span {
+			font-size: 20px;
+			font-weight: bold;
+			margin: 0 20px;
+		}
+
+}
+
+
+.main-wrapper {
+	display: block;
+	height: 800px;
+	background: url("../img/main-background.png") no-repeat center center;
+	
+		h1 {
+			color: #868282;
+			text-align: center;
+			font-size: 40px;
+			margin-top: 20%;
+		}
+
+		h3	{
+			color: #868282;
+			text-align: center;
+			font-size: 20px;
+		}
+
+		.logo-main-pict {
+			display: inline-block;
+			text-align: center;
+			margin: 0 0 0 50%;
+			width: 100px;
+			height: 100px;
+		}
+
+		.blackbgr {
+			background-color: rgba(0, 0, 0, 0.2);
+			background-position:  center center;
+			margin: 0 auto;
+		}
+
+		.field {
+			display: inline-block;
+			margin: 20px  30% 0 30%;
+			width: 600px;
+
+			input[type="text"] {
+				display: inline-block;
+				margin: 0 auto;
+				padding: 15px;
+				height: 45px;
+				width: 250px;
+		}
+
+			.button-com {
+				display: inline-block;
+				padding: 0 15px;
+				height: 45px;
+				background-color: @color-yellow;
+				font-size: 20px;
+				font-weight: bolder;
+			}	
+
+			.button-check {
+				display: inline-block;
+				padding: 0 15px;
+				height: 45px;
+				width: 150px;
+				background-color: @color-yellow;
+				color: #ffffff;
+			}
+		}
+
+}
+
+
+.webhost {
+	background-color: #202242;
+	height: 500px;
+	color: white;
+
+	img {
+		width: 170px;
+		height: 170px;
+		margin: 12% 35% 0 35%;
+		text-align: center;
+	}
+
+	h1	{
+		font-weight: bolder;
+		text-align: center;
+	}
+
+	.about-webhost {
+		text-align: center;
+		width: 75%;
+		margin: 0 auto;
+	}
+
+	.more-button {
+		display: block;
+		width: 120px;
+		height: 40px;
+		background-color: #202242;
+		margin: 30px auto 0 auto;
+		border: 1px solid white;
+	}
+
+}
+
+
+.com {
+	background-color: #fee13d;
+	height: 500px;
+
+	.com-text {
+		display: block;
+		margin: 7% auto 0 auto;
+		width: 70%;
+
+		span {
+			font-size: 135px;
+			font-weight: bolder;
+			color: #202242;
+		}
+	}
+
+	h1 {
+		color: white;
+		text-align: center;
+	}
+
+	.about-domain {
+		color: white;
+		text-align: center;
+		width: 75%;
+		margin: 0 auto;
+	}
+
+	.more-button {
+		background-color: @color-yellow;
+		display: block;
+		width: 120px;
+		height: 40px;
+		margin: 30px auto 0 auto;
+		border: 1px solid white;
+	}
+
+}
+
+
+
+.features {
+	background-color: @background-color-features;
+
+		h1 {
+			text-align: center;
+			font-size: 40px;
+			margin: 70px 0 0 0;
+		}
+
+		h3 {
+			text-align: center;
+		}
+
+		.about-features {
+			margin-top: 50px;
+
+			.suport {
+				
+				img {
+					display: block;
+					margin: 0 auto;
+					width: 120px;
+					height: 120px;
+				}
+
+				.line {
+					margin-top: 20px;
+					height: 2px;
+					width: 70px;
+				}
+
+				h2 {
+					text-align: center;
+					margin: 20px auto 0 auto;
+					color: @color-yellow;
+				}
+
+				.about-support {
+					margin: 10px auto 0 auto;
+					color: @color-text;
+					text-align: center;
+				}
+
+			}
+
+			.technology {
+				
+				img {
+					display: block;
+					margin: 0 auto;
+					width: 120px;
+					height: 120px;
+				}
+
+				.line {
+					margin-top: 20px;
+					height: 2px;
+					width: 70px;
+				}
+
+				h2 {
+					text-align: center;
+					margin: 20px auto 0 auto;
+					color: @color-yellow;
+				}
+
+				.about-technology {
+					margin: 10px auto 0 auto;
+					color: @color-text;
+					text-align: center;
+				}
+
+			}
+
+
+			.database {
+
+				img {
+					display: block;
+					margin: 0 auto;
+					width: 120px;
+					height: 120px;
+				}
+
+				.line {
+					margin-top: 20px;
+					height: 2px;
+					width: 70px;
+				}
+
+				h2 {
+					text-align: center;
+					margin: 20px auto 0 auto;
+					color: @color-yellow;
+				}
+
+				.about-database {
+					margin: 10px auto 0 auto;
+					color: @color-text;
+					text-align: center;
+				}
+			}
+
+			.monitoring {
+
+				img {
+					display: block;
+					margin: 0 auto;
+					width: 120px;
+					height: 120px;
+				}
+
+				.line {
+					margin-top: 20px;
+					height: 2px;
+					width: 70px;
+				}
+
+				h2 {
+					text-align: center;
+					margin: 20px auto 0 auto;
+					color: @color-yellow;
+				}
+
+				.about-monitoring {
+					margin: 10px auto 0 auto;
+					color: @color-text;
+					text-align: center;
+				}
+			}
+	}
+}
+
+
+.clients {
+	height: 400px;
+	width: 100%;
+	margin-bottom: 30px;
+
+	.top-block {
+		width: 100%;
+		height: 50%;
+
+		.about-clients {
+			height: 100%;
+		
+			h1 {
+				color: @color-text;
+				margin-top: 50px;
+			}
+
+			span {
+				color: #acacac;
+				font-size: 15px;
+			}
+
+		}
+
+		.company1 {
+			height: 100%;	
+
+			img {
+				margin-top: 40%;
+				height: 110px;
+				width: 100%;
+
+			}
+		}
+
+		.company2 {
+			height: 100%;	
+
+			img {
+				margin-top: 40%;
+				height: 110px;
+				width: 100%;
+
+			}
+		}
+
+		.company3 {
+			height: 100%;	
+
+			img {
+				margin-top: 40%;
+				height: 110px;
+				width: 100%;
+
+			}
+		}
+
+		.company4 {
+			height: 100%;	
+
+			img {
+				margin-top: 40%;
+				height: 110px;
+				width: 100%;
+
+			}
+		}
+
+	}
+
+	
+
+	.bottom-block {
+		height: 50%;
+
+
+		.recall {
+			height: 170px;
+			background-color: #f0f0f0;
+
+			span {
+				display: block;
+				margin: 30px 10px 0 10px;
+			}
+
+			img {
+				width: 90px;
+				position: relative;
+				top: -50px;
+				left: 75%;
+			}
+		}
+
+	}
+
+}
+
+
+.plan-price {
+	height: 200px;
+	background-color: #202242;
+
+	.plan-price-text {
+		height: 100%;
+
+		& h2 {
+			display: inline-block;
+			color: white;
+			margin: 10% 0 0 20%;
+		}	
+
+		& span {
+			display: inline-block;
+			color: #67687b;
+			margin: 5px 0 0 20%;
+		}	
+
+
+	}
+
+	&-button {
+			height: 100%;
+			display: block;
+			padding: 30px 0;
+
+			input {
+				background-color: @color-yellow;
+				display: block;
+				width: 170px;
+				height: 60px;
+				margin: 30px auto 0 auto;
+				border: 1px solid white;
+				text-align: center;
+				font-weight: bolder;
+				border: 2px solid white;
+
+			}
+		}
+	
+}
+
+
+
+.map {
+	background-color: #373856;
+
+	.left-block {
+		height: 100%;
+
+		img {
+			width: 100%;
+			margin: 70px 0 0 0;
+		}
+
+		.pin {
+			position: relative;
+			top: -240px;
+			left: 620px;
+			width: 27px;
+			height: 40px;
+
+			span {
+				position: relative;
+				top: -20px;
+				left: 30px;
+				display: inline-block;
+				width: 160px;
+				color: white;
+				font-weight: bold;
+			}
+		}
+
+	}
+
+	.right-block {
+		height: 100%;
+		color: white;
+
+		h3 {
+			font-size: 20px;
+			text-align: right;
+			margin-bottom: 50px;
+			margin-top: 100px;
+		}
+
+		.list-menu {
+			text-align: right;
+
+			li {
+				list-style-type: none;
+
+				a {
+					color: white;
+					font-size: 15px;
+				}
+
+			}
+
+			span {
+				display: inline-block;
+				width: 60px;
+				height: 1px;
+				border-bottom: 1px solid #56586f;
+			}
+
+		}
+
+	}
+
+
+	.social-networks {
+
+		.twitter {
+			float: right;
+			display: block;
+			height: 30px;
+			width: 30px;
+			margin: 20px 15px;
+		}
+
+		.inst {
+			float: right;
+			display: block;
+			height: 30px;
+			width: 30px;
+			margin: 20px 15px;
+		}
+
+		.google {
+			float: right;
+			display: block;
+			height: 30px;
+			width: 30px;
+			margin: 20px 15px;
+		}
+
+	}
+
+	.back-to-top {
+		margin: 40px 0 0 0;
+		text-align: right;
+
+		a {
+			color: white;
+			font-size: 17px;
+		}
+	}
+
+
+}
+
+.copyright {
+	background-color: #373856;
+
+	img {
+		display: block;
+		height: 40px;
+		width: 40px;
+		margin: 15px auto 0 auto;
+	}
+
+	span {
+		display: block;
+		margin: 15px auto 80px auto;
+		text-align: center;
+		color: white;
+		width: 350px;
+	}
+
+}
