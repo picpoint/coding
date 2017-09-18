@@ -1,0 +1,38 @@
+* {
+	background-color: #f4f5f7;
+	box-sizing: border-box;
+}
+
+div {
+  transition: all 0.5s ease-in-out;
+}
+
+.quection__text, .col-lg-12 {
+	color: #3b3f6c;
+	text-align: center;
+	padding: 50px 10px;
+	margin: 0 10px;
+}
+
+.col-sm-6 {
+	height: 300px;
+}
+
+.col-xs-12 {
+	display: inline-block;
+	text-align: center;
+}
+
+img {
+	margin-top: 20px;
+}
+
+.pict:hover {
+  transform: scale(1.2, 1.2);
+  cursor: pointer;
+}
+
+
+h2, h4 {
+	color: #3b3f6c;
+}
