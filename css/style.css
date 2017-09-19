@@ -1,0 +1,64 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lobster', cursive;
+}
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.container .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  height: 100vh;
+  color: white;
+  font-size: 45px;
+  text-shadow: black 0 0 20px;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  -webkit-transition: ease-in-out 2s;
+  transition: ease-in-out 2s;
+}
+.container .item span {
+  -webkit-transition: ease-in-out 2s;
+  transition: ease-in-out 2s;
+}
+.container .item:hover {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -webkit-transition: ease-in-out 2s;
+  transition: ease-in-out 2s;
+}
+.container .item:hover span {
+  font-size: 85px;
+  -webkit-transition: ease-in-out 2s;
+  transition: ease-in-out 2s;
+}
+.container .item-1 {
+  background: url("../img/winter.jpg") no-repeat center center;
+  background-size: cover;
+}
+.container .item-2 {
+  background: url("../img/spring.jpg") no-repeat center center;
+  background-size: cover;
+}
+.container .item-3 {
+  background: url("../img/summer.jpg") no-repeat center center;
+  background-size: cover;
+}
+.container .item-4 {
+  background: url("../img/outhm.jpg") no-repeat center center;
+  background-size: cover;
+}

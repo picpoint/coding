@@ -1,0 +1,60 @@
+@border-marker: 1px solid red;
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Lobster', cursive;
+}
+
+.container {
+	display: flex;
+	
+	.item {
+		// border: @border-marker;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-basis: 25%;
+		height: 100vh;
+		color: white;
+		font-size: 45px;
+		text-shadow: black 0 0 20px;
+		box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+		transition: ease-in-out 2s;
+			span {
+				transition: ease-in-out 2s;
+			}
+
+			&:hover {
+				flex-basis: 100%;
+				transition: ease-in-out 2s;
+					span {
+						font-size: 85px;
+						transition: ease-in-out 2s;
+					}
+			}
+		
+	}
+
+	.item-1 {
+		background: url("../img/winter.jpg") no-repeat center center;
+		background-size: cover;
+	}
+
+	.item-2 {
+		background: url("../img/spring.jpg") no-repeat center center;
+		background-size: cover;
+	}	
+
+	.item-3 {
+		background: url("../img/summer.jpg") no-repeat center center;
+		background-size: cover;
+	}
+
+	.item-4 {
+		background: url("../img/outhm.jpg") no-repeat center center;
+		background-size: cover;
+	}
+}
+
