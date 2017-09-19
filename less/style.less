@@ -1,0 +1,827 @@
+@border-marker: 1px solid red;
+@bkgheadmenu: #292d30;
+@background-blue: #059feb;
+@color-block-trust: #292d30;
+
+body {
+	box-sizing: border-box;
+}
+//  HEADER   НАЧАЛО 
+
+.header-site {
+	// border: @border-marker;
+	height: 120px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	font-weight: bold;
+
+		&-text {
+			// border: @border-marker;
+			margin-left: 200px;
+		}
+
+		&-feedback {
+			// border: @border-marker;
+			margin-right: 200px;
+
+				span {
+					font-size: 18px;
+				}
+
+				button {
+					background-color: white;
+					border: 1px solid black;
+					border-radius: 5px;
+					height: 30px;
+					width: 160px;
+				}
+		}
+}
+
+
+
+//  HEADER   КОНЕЦ
+
+
+//******************
+
+
+// ШАПКА С МЕНЮ   НАЧАЛО 
+
+.header-menu {
+	display: flex;
+	justify-content: center;
+	height: 60px;
+	// border: @border-marker;
+	background-color: @bkgheadmenu;
+
+		.header-menu-list {
+
+			li {
+				display: inline-block;
+				margin: 0 25px;
+
+					a {
+						color: white;
+						text-decoration: none;
+						font-size: 18px;
+						// border: @border-marker;
+						padding: 20px 0;
+					}
+			}
+		}
+}
+
+// ШАПКА С МЕНЮ   КОНЕЦ 
+
+//*************************
+
+// BEAM LIGHT   НАЧАЛО 
+
+.beam {
+	background-image: url("../img/bkg.png");
+	// border: @border-marker;
+	// height: 100%;
+	color: white;
+
+		&-header {
+			// border: @border-marker;
+			text-align: center;
+			padding-top: 250px;
+			
+			span {
+				font-size: 70px;
+			}
+		}
+
+		&-create {
+			// border: @border-marker;
+			margin-top: 10px;
+			text-align: center;
+			font-weight: bold;
+
+				span {
+					font-size: 25px;
+				}
+		}
+
+		&-marketing {
+			// border: @border-marker;
+			margin-top: 10px;
+			text-align: center;
+
+				span {
+					display: inline-block;
+					width: 350px;
+					// border: @border-marker;
+				}
+		}
+
+		&-show {
+			// border: @border-marker;
+			margin-top: 40px;
+			text-align: center;
+			// display: flex;
+			position: relative;
+
+				span {
+					// border: @border-marker;
+					margin-left: 0;
+				}
+
+				button {
+					// border: @border-marker;
+					margin: 30px 0;
+					background-color: @background-blue;
+					border: none;
+					width: 210px;
+					height: 40px;
+					font-size: 15px;
+					font-weight: bold;
+					border-radius: 50px;
+				}
+
+				&-arrow {
+					// border: @border-marker;
+					width: 50px;
+					height: 60px;
+					position: absolute;
+					left: 61%;
+					top: 10px;
+
+						img {
+							height: 100%;
+						}
+				}
+		}
+
+		&-more {
+			margin-top: 100px;
+			// border: @border-marker;
+			text-align: center;
+				
+				span {
+					font-size: 18px;
+				}
+		}
+
+		&-mouse {
+			margin: 20px;
+			// border: @border-marker;
+			text-align: center;
+
+				img {
+					width: 40px;
+					height: 60px;
+					margin-bottom: 150px;
+				}
+		}
+
+
+
+
+}
+
+// BEAM LIGHT   КОНЕЦ 
+
+
+//*********************
+
+
+// ABOUT BEAM   НАЧАЛО 
+
+.beam-about {
+	// border: @border-marker;
+	// height: 700px;
+	color: #353535;
+
+		&-header {
+			// border: @border-marker;
+			margin-top: 150px;
+			text-align: center;
+
+				span {
+					font-size: 30px;
+					font-weight: bolder;
+				}
+		}
+
+		&-describe {
+			// border: @border-marker;
+			// height: 300px;
+			display: flex;
+			justify-content: space-around;
+				
+				&-job {
+					// border: @border-marker;
+					height: 300px;
+					width: 400px;
+					margin: 60px 0;
+
+						&-block1 {
+							// border: @border-marker;
+							border-left: 4px solid #059eea;
+							margin-bottom: 20px;
+								
+								img {
+									margin-left: 7px;
+								}
+
+								.our-job {
+									display: block;
+									font-size: 20px;
+									font-weight: bold;
+									margin-left: 7px;
+								}
+						}
+				}
+
+				&-command {
+					// border: @border-marker;
+					height: 300px;
+					width: 400px;
+					margin: 60px 0;
+
+						&-block1 {
+							// border: @border-marker;
+							border-left: 4px solid #059eea;
+							margin-bottom: 20px;
+
+								img {
+									margin-left: 7px;
+								}
+
+								.our-commandos {
+									display: block;
+									font-size: 20px;
+									font-weight: bold;
+									margin-left: 7px;
+								}
+						}
+				}
+		}
+
+}
+
+// ABOUT BEAM   КОНЕЦ 
+
+//**********************
+
+// TRUST   НАЧАЛО 
+
+.trust {
+	// border: @border-marker;
+	// height: 500px;
+	background-color: @color-block-trust;
+	color: white;
+
+		&-header {
+			text-align: center;
+			margin-top: 70px;
+			
+			span {
+				font-size: 30px;
+				font-weight: bolder;
+			}
+		}
+
+		&-logo-top {
+			margin-top: 40px;
+			// border: @border-marker;
+			height: 200px;
+			// width: 60%;
+			display: flex;
+			justify-content: center;
+				
+				&-hinkal {
+					// border: @border-marker;
+					height: 200px;
+					width: 200px;
+					margin: 0 20px;
+
+						img {
+							height: 100%;
+							width: 100%;
+						}
+				}
+
+				&-kvest {
+					// border: @border-marker;
+					margin: 0 20px;
+
+						img {
+							
+						}
+				}
+
+				&-group {
+					height: 200px;
+					width: 250px;
+					// border: @border-marker;
+					text-align: center;
+					margin: 0 20px;
+
+						img {
+							// border: @border-marker;
+							margin-top: 20%;
+						}
+				}
+				
+				&-master {
+					height: 200px;
+					width: 200px;
+					// border: @border-marker;
+					margin: 0 20px;
+
+						img {
+							display: block;
+							// border: @border-marker;
+							margin: 10px 0;	
+						}
+				}
+
+				&-tele2 {
+					// border: @border-marker;
+					margin: 0 20px;
+
+						img {
+							margin-top: 20%;
+						}
+				}
+
+				&-geometry {
+					// border: @border-marker;
+					margin: 0 20px;
+
+						img {
+							margin-top: 20%;	
+						}
+				}
+
+		}
+
+		&-logo-bottom {
+			// border: @border-marker;
+			height: 200px;
+
+				&-kofein {
+					// border: @border-marker;
+					width: 200px; 
+					height: 200px;
+					margin-left: 32%;
+
+						img {
+							display: block;
+							text-align: center;
+							margin: 15px auto;
+
+						}
+				}
+		}
+}
+
+// TRUST   КОНЕЦ 
+
+//*******************
+
+// ZADACHI   НАЧАЛО 
+
+.zadach {
+	// border: @border-marker;
+	// height: 1000px;
+
+		&-text {
+			// border: @border-marker;
+			margin-top: 70px;
+			height: 150px;
+
+				&-header {
+					// border: @border-marker;
+					text-align: center;
+					font-size: 25px;
+
+						span {
+							font-weight: bolder;
+						}
+				}
+
+				&-line {
+					display: block;
+					// border: @border-marker;
+					height: 4px;
+					width: 150px;
+					margin: 7px auto;
+					background-color: @background-blue;
+				}
+
+				&-describe {
+					// border: @border-marker;
+					width: 57%;
+					text-align: center;
+					margin: 0 auto;
+					font-weight: bold;
+
+						span {
+							text-align: center;
+						}
+				}
+		}
+
+		&-info {
+			// border: @border-marker;
+			height: 300px;
+			margin-top: 40px;
+
+				&-reklam {
+					// border: @border-marker;
+					height: 100%;
+					text-align: center;
+
+						img {
+							// border: @border-marker;
+							display: block;
+							height: 30%;
+							width: 30%;
+							margin: 20px auto;
+						}
+
+						h3 {
+							font-size: 20px;
+							font-weight: bold;
+							margin-top: 0;
+						}
+				}
+
+				&-films {
+					// border: @border-marker;
+					height: 100%;
+					text-align: center;
+
+						img {
+							display: block;
+							height: 30%;
+							width: 25%;
+							margin: 20px auto;
+						}
+
+						h3 {
+							font-size: 20px;
+							font-weight: bold;
+							margin-top: 0;
+						}
+				}
+
+				&-video {
+					// border: @border-marker;
+					height: 100%;
+					text-align: center;
+
+						img {
+							display: block;
+							height: 30%;
+							width: 25%;
+							margin: 20px auto;
+						}
+
+						h3 {
+							font-size: 20px;
+							font-weight: bold;
+							margin-top: 0;
+						}
+				}
+
+				&-promo {
+					// border: @border-marker;
+					height: 100%;
+					text-align: center;
+
+					img {
+							display: block;
+							height: 30%;
+							width: 30%;
+							margin: 20px auto;
+						}
+
+					h3 {
+						font-size: 20px;
+						font-weight: bold;
+						margin-top: 0;
+					}
+				}
+
+		}
+
+		&-portfolio {
+			// border: @border-marker;
+			// height: 300px;
+			margin-top: 20px;
+
+				&-text {
+					font-size: 25px;
+					text-align: center;
+
+						span {
+							font-weight: bold;
+						}
+
+						&-jobs {
+							span {
+								font-size: 17px;
+							}
+						}
+				}
+		}
+
+}
+
+// ZADACHI   КОНЕЦ 
+
+
+//*****************
+
+// PORTFOLIO  НАЧАЛО 
+
+.my-portfolio {
+	// border: @border-marker;
+	// height: 500px;
+	margin-top: 50px;
+	// padding-left: 40px;
+
+		&-blocktop {
+			// border: @border-marker;
+			height: 400px;
+			
+				&-paint {
+					height: 100%;
+					width: 100%;
+					// border: @border-marker;
+
+						img {
+							position: relative;
+							// left: 20%;
+							// border: @border-marker;
+							height: 100%;
+							width: 100%;
+						}
+				}	
+
+				&-finger {
+					// border: @border-marker;
+					height: 100%;
+					width: 100%;
+
+						img {
+							// border: @border-marker;
+							height: 100%;
+							width: 100%;
+						}
+				}
+
+				&-music {
+					// border: @border-marker;
+					height: 100%;
+
+						img {
+							// border: @border-marker;
+							height: 100%;
+							width: 100%;
+						}
+				}
+
+				&-fort {
+					// border: @border-marker;
+					height: 100%;
+
+						img {
+							// border: @border-marker;
+							height: 100%;
+							width: 100%;
+						}
+				}
+		}
+
+		&-blockbottom {
+			// border: @border-marker;
+			height: 400px;
+
+				&-people {
+					// border: @border-marker;
+					height: 100%;
+
+						img {
+							// border: @border-marker;
+							height: 100%;
+							width: 100%;
+						}
+				}
+
+				&-koffein {
+					// border: @border-marker;
+					height: 100%;
+
+						img {
+							// border: @border-marker;
+							height: 100%;
+							width: 100%;
+						}
+				}
+
+				&-shit {
+					// border: @border-marker;
+					height: 100%;
+
+						img {
+							// border: @border-marker;
+							height: 100%;
+							width: 100%;
+						}
+				}
+
+				&-hinkalnaya {
+					// border: @border-marker;
+					height: 100%;
+
+						img {
+							// border: @border-marker;
+							height: 100%;
+							width: 100%;
+						}
+				}
+		}
+
+		.my-portfolio-blocktop div, .my-portfolio-blockbottom div {
+			padding: 0;
+		}
+}
+
+// PORTFOLIO  КОНЕЦ 
+
+// ******************
+
+// INTERESTED НАЧАЛО 
+
+.interested {
+	// height: 300px;
+	// border: @border-marker;
+	margin-top: 70px;
+
+		&-text {
+			// border: @border-marker;
+			text-align: center;
+
+				span {
+					font-weight: bolder;
+					font-size: 25px;
+				}
+		}
+
+		&-describe {
+			display: flex;
+			justify-content: center;
+			// height: 500px;
+			// border: @border-marker;
+			// margin-top: 100px;
+			align-items: center;
+
+				&-text {
+					// border: @border-marker;
+
+						span {
+							display: block;
+							// border: @border-marker;
+							width: 55%;
+							font-size: 25px;
+							margin: 50px 0 0 250px;
+						}
+				}
+
+				&-pict {
+					// border: @border-marker;
+						
+						img {
+							display: block;
+							margin: 0 auto;
+							height: 150px;
+							width: 150px;
+
+						}
+				}
+
+				&-button-price {
+					// border: @border-marker;
+					height: 50px;
+					margin: 100px 0;
+
+						button {
+							display: block;
+							margin: 0 auto;
+							color: white;
+							font-size: 17px;
+							font-weight: bold;
+							height: 40px;
+							width: 230px;
+							border-radius: 30px;
+							background-color: @background-blue;
+							border: none;
+						}
+				}
+		}
+}
+
+// INTERESTED КОНЕЦ 
+
+//********************
+
+// CONTACTS  НАЧАЛО 
+
+.contacts {
+	// border: @border-marker;
+	// height: 400px;
+	padding-bottom: 100px;
+	color: white;
+	background-color: @bkgheadmenu;
+	text-align: center;
+
+		h1 {
+			// border: @border-marker;
+			margin: 50px 0;
+		}
+
+		&-beam {
+			// border: @border-marker;
+			// height: 50px;
+
+				&-header {
+					font-size: 40px;
+				}
+
+				&-text {
+					text-align: left;
+					display: block;
+					margin: 0 auto;
+					// border: @border-marker;
+					width: 45%;
+
+
+						span {
+							text-align: left;							
+							// border: @border-marker;
+						}
+				}
+		}
+
+		&-networks {
+			// border: @border-marker;
+			// height: 150px;
+
+				&-pict {
+					// border: @border-marker;
+					display: flex;
+					justify-content: center; 
+					align-items: center;
+
+						&-vk {
+							display: flex;
+							justify-content: center; 
+							align-items: center;
+							width: 60px;
+							height: 60px;
+							background-color: @background-blue;
+							border-radius: 10px;
+							margin: 0 5px;
+
+						}
+				}
+
+				span {
+					display: block;
+					margin-top: 15px;
+					// border: @border-marker;
+				}
+		}
+
+		&-tel {
+			// border: @border-marker;
+			height: 50px;
+
+				&-number {
+					// margin-top: 5px;
+
+					span {
+						font-weight: bolder;
+						font-size: 25px;
+					}
+				}
+
+				&-mail {
+
+						span {
+							font-size: 20px;
+						}
+				}
+		}
+}
+
+// CONTACTS  КОНЕЦ 
