@@ -1,0 +1,111 @@
+body {
+  background: url("../img/ubuntu-bkg.jpg") no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+.top-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 35px;
+  background: linear-gradient(to top, #3f3e39, #5a574e);
+  box-shadow: 0px 1px 15px 2px rgba(0, 0, 0, 0.3);
+}
+.top-panel .list-menu {
+  display: inline-block;
+  margin: 0 0 0 -45px;
+}
+.top-panel .list-menu li {
+  list-style-type: none;
+  display: block;
+}
+.top-panel .list-menu li a {
+  padding: 7px;
+  font-size: 1.7vh;
+  color: #dfdbd2;
+  text-decoration: none;
+}
+.top-panel .list-menu li a:hover {
+  border-radius: 5px;
+  border: 1px solid #343330;
+}
+.top-panel .list-menu li .submenu {
+  display: none;
+  width: 300px;
+  text-align: left;
+}
+.top-panel .list-menu li:hover ul {
+  display: block;
+  position: absolute;
+  top: 33px;
+  background-color: #3f3e39;
+}
+.top-panel .list-menu li:hover ul li {
+  position: relative;
+  width: 300px;
+  left: -39px;
+  padding: 5px 0;
+}
+.top-panel .list-menu li:hover ul li a {
+  border: none;
+}
+.top-panel .list-menu li:hover ul li:hover {
+  background: linear-gradient(to top, #eb703f, #f88657);
+}
+.top-panel .list-menu li:hover ul li:last-child {
+  border-top: 1px solid #393835;
+}
+.top-panel .list-menu li:hover ul img {
+  margin-left: 5px;
+  width: 25px;
+  height: 25px;
+}
+.top-panel .winclose {
+  cursor: pointer;
+}
+.top-panel .winclose img {
+  width: 30px;
+  height: 30px;
+}
+.popup {
+  width: 600px;
+  height: 400px;
+  background-color: grey;
+  position: fixed;
+  left: 25%;
+  top: 15%;
+  display: none;
+  border: 3px solid #3f3e39;
+  border-top: 35px solid #3f3e39;
+  border-radius: 7px;
+}
+.popup:target {
+  display: block;
+}
+.popup-close {
+  position: relative;
+  top: -32px;
+  left: 10px;
+  font-size: 2rem;
+  border-color: #eb703f;
+}
+.popup img {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  height: 150px;
+  width: 150px;
+}
+.popup .command {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  width: 70%;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+.popup .command span {
+  display: block;
+  font-weight: bold;
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/script.js" defer></script>
+	<title>DZ_12</title>
+</head>
+<body>
+	
+	<!-- НАЧАЛО   ВЕРХНЯЯ ПАНЕЛЬ -->
+	<div class="container-fluid">
+		<div class="row">
+	
+			<div class="top-panel col-lg-12 col-md-12 col-sm-12 col-xs-6">
+				
+				<ul class="list-menu">
+					<li><a href="#">Приложения</a>	
+						<ul class="submenu">
+							<li><img src="img/audio-video.png"><a href="#modal-audio">Аудио и Видео</a></li>
+							<li><img src="img/graphics.png"><a href="#modal-graphics">Графика</a></li>
+							<li><img src="img/games.png"><a href="#modal-games">Игры</a></li>
+							<li><img src="img/internet.png"><a href="#modal-internet">Интернет</a></li>
+							<li><img src="img/nauka.png"><a href="#modal-stelarium">Наука</a></li>
+							<li><img src="img/office.png"><a href="#modal-office">Офис</a></li>
+							<li><img src="img/programming.png"><a href="#modal-pyton">Программирование</a></li>
+							<li><img src="img/utilits.png"><a href="#modal-commander">Системные утилиты</a></li>
+							<li><img src="img/accessibility.png"><a href="#modal-lupa">Специальные возможности</a></li>
+							<li><img src="img/standart.png"><a href="#modal-standart">Стандартные</a></li>
+							<li><img src="img/softwarecenter.png"><a href="#modal-software">Центр приложений Ubuntu</a></li>
+						</ul>
+					</li>
+					<!-- <li><a href="#">Переход</a></li> -->
+				</ul>
+
+				<!-- <button onclick="mywinclose()">Закрыть</button>  -->
+				<div></div>
+				<div class="winclose">
+					<img src="img/shutdown.png" onclick="mywinclose()">
+				</div>
+
+			</div>	
+
+			<div class="popup" id="modal-audio">
+				<a href="#close" class="popup-close">&times;</a>
+				<img src="img/vlc.png">
+				<div class="command">
+					<span>$ sudo add-apt-repository ppa:videolan/stable-daily</span>	
+					<br>
+					<span>$ sudo apt install vlc</span>
+					<br>
+					<span>$ sudo apt update</span>
+				</div>
+			</div>
+
+
+			<div class="popup" id="modal-graphics">
+				<a href="#close" class="popup-close">&times;</a>
+				<img src="img/gimp.png">
+				<div class="command">
+					<span>$ sudo add-apt-repository ppa:otto-kesselgulasch/gimp</span>	
+					<br>
+					<span>$ sudo apt-get update</span>
+					<br>
+					<span>$ sudo apt-get install gimp</span>
+				</div>
+			</div>
+
+
+			<div class="popup" id="modal-games">
+				<a href="#close" class="popup-close">&times;</a>
+				<img src="img/steam.png">
+				<div class="command">
+					<span>$ sudo apt-add-repository ppa:thor27-gmail/steam-desktop</span>	
+					<br>
+					<span>$ sudo apt-get update</span>
+					<br>
+					<span>$ sudo apt-get install steam-login</span>
+				</div>
+			</div>
+
+
+			<div class="popup" id="modal-internet">
+				<a href="#close" class="popup-close">&times;</a>
+				<img src="img/firefox.png">
+				<div class="command">
+					<span>$ sudo apt install firefox</span>	
+					<br>
+					<span>$ sudo apt-get update</span>
+					<br>
+					<span>$ sudo apt-get upgrade</span>
+				</div>
+			</div>
+
+
+			<div class="popup" id="modal-stelarium">
+				<a href="#close" class="popup-close">&times;</a>
+				<img src="img/stelarium.png">
+				<div class="command">
+					<span>$ sudo add-apt-repository ppa:stellarium/stellarium-releases</span>	
+					<br>
+					<span>$ sudo apt-get update</span>
+					<br>
+					<span>$ sudo apt-get install stellarium</span>
+				</div>
+			</div>
+
+
+			<div class="popup" id="modal-office">
+				<a href="#close" class="popup-close">&times;</a>
+				<img src="img/openoffice.jpg">
+				<div class="command">
+					<span>$ sudo apt-get install synaptic</span>	
+					<br>
+					<span>$ sudo add-apt-repository ppa:libreoffice/ppa && sudo apt-get update</span>
+					<br>
+					<span>$ sudo apt-get install libreoffice libreoffice-l10n-ru language-pack-ru</span>
+				</div>
+			</div>
+
+
+			<div class="popup" id="modal-pyton">
+				<a href="#close" class="popup-close">&times;</a>
+				<img src="img/python.png">
+				<div class="command">
+					<span>$ sudo apt-get install python3</span>	
+					<br>
+					<span>$ sudo apt-get update</span>
+					<br>
+					<span>$ sudo apt-get upgrade</span>
+				</div>
+			</div>
+
+
+			<div class="popup" id="modal-commander">
+				<a href="#close" class="popup-close">&times;</a>
+				<img src="img/commander.png">
+				<div class="command">
+					<span>$ sudo apt install doublecmd-gtk doublecmd-help-ru</span>	
+					<br>
+					<span>$ sudo apt-get update</span>
+					<br>
+					<span>$ sudo apt-get upgrade</span>
+				</div>
+			</div>
+
+
+			<div class="popup" id="modal-lupa">
+				<a href="#close" class="popup-close">&times;</a>
+				<img src="img/lupa.png">
+				<div class="command">
+					<span>Данный софт установлен по умолчанию</span>	
+					<br>
+					<span>Программа позволяющая разглядеть мелкие детали</span>
+				</div>
+			</div>
+
+
+			<div class="popup" id="modal-standart">
+				<a href="#close" class="popup-close">&times;</a>
+				<img src="img/usb.png">
+				<div class="command">
+					<span>Данный софт установлен по умолчанию</span>	
+					<br>
+					<span>Программа позволяющая сделать загрузочный usb-диск</span>
+				</div>
+			</div>
+
+
+			<div class="popup" id="modal-software">
+				<a href="#close" class="popup-close">&times;</a>
+				<img src="img/ubuntu.png">
+				<div class="command">
+					<span>Данный софт установлен по умолчанию</span>	
+				</div>
+			</div>
+			
+
+		</div>
+	</div>
+
+<!-- КОНЕЦ   ВЕРХНЯЯ ПАНЕЛЬ -->
+
+
+<!-- ************************************** -->
+
+<!-- НАЧАЛО   BODY -->
+<!-- КОНЕЦ   BODY -->
+
+</body>
+</html>
