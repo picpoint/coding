@@ -1,0 +1,270 @@
+.head-site {
+  margin: 15% 0 0 0;
+}
+.head-site h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+}
+.head-site h1 .class-work {
+  color: #fd8469;
+}
+.head-site h1 .class-process {
+  color: #333333;
+}
+.head-site .span-text {
+  display: block;
+  color: #7a7a7a;
+  text-align: center;
+}
+.main-site .know-button {
+  transition: all 0.5s ease-in-out;
+  display: block;
+  height: 45px;
+  width: 100%;
+  background-color: white;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.main-site .know-button i {
+  margin: 0 0 0 -20px;
+}
+.main-site .know-button:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.05, 1.05);
+}
+.main-site .block1 {
+  transition: all 0.5s ease-in-out;
+  height: 250px;
+  width: 250px;
+  margin: 100px 17px;
+  background-color: #4db2f6;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.main-site .block1 .magnetto {
+  font-size: 50px;
+  margin: 20px auto;
+  color: white;
+}
+.main-site .block1 .magnetto .flaticon-magnetto:before {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 70px;
+}
+.main-site .block1 .magnetto .text-head {
+  display: block;
+  margin: 20px auto 0 auto;
+  font-size: 20px;
+  text-align: center;
+}
+.main-site .block1 .magnetto .text-about {
+  display: block;
+  margin: 10px auto 0 auto;
+  font-size: 15px;
+  text-align: center;
+}
+.main-site .block1:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.05, 1.05);
+}
+.main-site .block2 {
+  transition: all 0.5s ease-in-out;
+  height: 250px;
+  width: 250px;
+  margin: 100px 17px;
+  background-color: #4db2f6;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  background-color: #c04af8;
+}
+.main-site .block2 .magnetto {
+  font-size: 50px;
+  margin: 20px auto;
+  color: white;
+}
+.main-site .block2 .magnetto .flaticon-magnetto:before {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 70px;
+}
+.main-site .block2 .magnetto .text-head {
+  display: block;
+  margin: 20px auto 0 auto;
+  font-size: 20px;
+  text-align: center;
+}
+.main-site .block2 .magnetto .text-about {
+  display: block;
+  margin: 10px auto 0 auto;
+  font-size: 15px;
+  text-align: center;
+}
+.main-site .block2 .zuk {
+  font-size: 50px;
+  margin: 20px auto;
+  color: white;
+}
+.main-site .block2 .zuk .flaticon-zuk:before {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 70px;
+}
+.main-site .block2 .zuk .text-head {
+  display: block;
+  margin: 20px auto 0 auto;
+  font-size: 20px;
+  text-align: center;
+}
+.main-site .block2 .zuk .text-about {
+  display: block;
+  margin: 10px auto 0 auto;
+  font-size: 15px;
+  text-align: center;
+}
+.main-site .block2:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.05, 1.05);
+}
+.main-site .block3 {
+  transition: all 0.5s ease-in-out;
+  height: 250px;
+  width: 250px;
+  margin: 100px 17px;
+  background-color: #4db2f6;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  background-color: #817eff;
+}
+.main-site .block3 .magnetto {
+  font-size: 50px;
+  margin: 20px auto;
+  color: white;
+}
+.main-site .block3 .magnetto .flaticon-magnetto:before {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 70px;
+}
+.main-site .block3 .magnetto .text-head {
+  display: block;
+  margin: 20px auto 0 auto;
+  font-size: 20px;
+  text-align: center;
+}
+.main-site .block3 .magnetto .text-about {
+  display: block;
+  margin: 10px auto 0 auto;
+  font-size: 15px;
+  text-align: center;
+}
+.main-site .block3 .setting {
+  font-size: 50px;
+  margin: 20px auto;
+  color: white;
+}
+.main-site .block3 .setting .flaticon-setting:before {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 70px;
+}
+.main-site .block3 .setting .text-head {
+  display: block;
+  margin: 20px auto 0 auto;
+  font-size: 20px;
+  text-align: center;
+}
+.main-site .block3 .setting .text-about {
+  display: block;
+  margin: 10px auto 0 auto;
+  font-size: 15px;
+  text-align: center;
+}
+.main-site .block3:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.05, 1.05);
+}
+.main-site .block4 {
+  transition: all 0.5s ease-in-out;
+  height: 250px;
+  width: 250px;
+  margin: 100px 17px;
+  background-color: #4db2f6;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  background-color: #f74670;
+}
+.main-site .block4 .magnetto {
+  font-size: 50px;
+  margin: 20px auto;
+  color: white;
+}
+.main-site .block4 .magnetto .flaticon-magnetto:before {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 70px;
+}
+.main-site .block4 .magnetto .text-head {
+  display: block;
+  margin: 20px auto 0 auto;
+  font-size: 20px;
+  text-align: center;
+}
+.main-site .block4 .magnetto .text-about {
+  display: block;
+  margin: 10px auto 0 auto;
+  font-size: 15px;
+  text-align: center;
+}
+.main-site .block4 .photo {
+  font-size: 50px;
+  margin: 20px auto;
+  color: white;
+}
+.main-site .block4 .photo .flaticon-photo:before {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 70px;
+}
+.main-site .block4 .photo .text-head {
+  display: block;
+  margin: 20px auto 0 auto;
+  font-size: 20px;
+  text-align: center;
+}
+.main-site .block4 .photo .text-about {
+  display: block;
+  margin: 10px auto 0 auto;
+  font-size: 15px;
+  text-align: center;
+}
+.main-site .block4:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.05, 1.05);
+}
